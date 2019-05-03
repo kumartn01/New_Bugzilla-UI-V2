@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 //verify user cannot delete  only version present in product
 
+WebUI.scrollToElement(findTestObject("Page_BugsUI Edit Product/delete_icon_version"), 0)
+
 if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/delete_icon_version"), 0)){
 	
 	WebUI.click(findTestObject("Page_BugsUI Edit Product/delete_icon_version"))
