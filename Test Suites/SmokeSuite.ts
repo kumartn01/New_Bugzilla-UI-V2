@@ -67,7 +67,7 @@
    <testCaseLink>
       <guid>bc999f16-3858-4386-86e5-eb3ebb749982</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Edit_Product/version_section</testCaseId>
    </testCaseLink>
    <testCaseLink>
