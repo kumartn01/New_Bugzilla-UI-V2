@@ -65,12 +65,6 @@
       <testCaseId>Test Cases/Edit_Product/component_section</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>bc999f16-3858-4386-86e5-eb3ebb749982</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Edit_Product/version_section</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1c7c73ba-bfd8-45c6-ad98-7e612cde66de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
