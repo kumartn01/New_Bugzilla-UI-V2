@@ -23,6 +23,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.scrollToElement(findTestObject("Page_BugsUI Edit Product/delete_icon_version"), 0)
 
+WebUI.delay(3)
+
 if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/delete_icon_version"), 0)){
 	
 	WebUI.click(findTestObject("Page_BugsUI Edit Product/delete_icon_version"))
