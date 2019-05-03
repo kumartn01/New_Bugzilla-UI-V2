@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Edit_Product_Suite" time="107" tests="4" failures="1" errors="0">
+   <testsuite name="Edit_Product_Suite" tests="4" failures="1" errors="0" time="107" timestamp="2019-05-02 14:14:20" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/Edit_Product_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Edit_Product_Suite\\20190502_141418"/>
+         <property name="logFiles" value="C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Edit_Product_Suite\\20190502_141418\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.95.75.221"/>
+         <property name="sessionId" value="fb7b1864a15c0af0e969ac525a467615"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit_Product/Edit_product_fields" classname="Test Cases/Edit_Product/Edit_product_fields" status="PASSED">
+         <system-out><![CDATA[2019-05-02 14:14:20 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/Edit_product_fields: Test Cases/Edit_Product/Edit_product_fields
+
+2019-05-02 14:14:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-05-02 14:14:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-02 14:14:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-02 14:14:37 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-02 14:14:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:14:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-02 14:14:40 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login: reusable.loginBugZillaUI.login is PASSED
+
+2019-05-02 14:14:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-02 14:14:40 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-02 14:14:41 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-02 14:14:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-02 14:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-02 14:14:41 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-02 14:14:41 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2019-05-02 14:14:47 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-02 14:14:47 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-02 14:14:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-02 14:14:47 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/button_Product), 10)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-02 14:14:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-02 14:14:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-02 14:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-02 14:14:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:14:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:14:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Edit), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-02 14:14:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Edit' is present
+
+2019-05-02 14:14:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-02 14:14:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-02 14:14:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-02 14:14:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-02 14:14:51 - [TEST_STEP][PASSED] - reusable.editPage.selectProduct: reusable.editPage.selectProduct is PASSED
+
+2019-05-02 14:14:52 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-02 14:14:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:14:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-02 14:14:54 - [MESSAGE][PASSED] - Text '1-Auto-edit' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-02 14:14:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Auto-edit' is clicked on
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - reusable.editPage.selectProduct is PASSED
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_update_product))): null
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is NOT clickable
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-02 14:14:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:14:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-02 14:14:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:01 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/verify_values_prepopulated" classname="Test Cases/Edit_Product/verify_values_prepopulated" status="PASSED">
+         <system-out><![CDATA[2019-05-02 14:15:01 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/verify_values_prepopulated: Test Cases/Edit_Product/verify_values_prepopulated
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-02 14:15:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - productName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/input_newName), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/input_newName' is: '1-Auto-edit'
+
+2019-05-02 14:15:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/input_newName' is: '1-Auto-edit'
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - productDescription = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/textarea_description), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'This product created for Automation of Edit page functionalities.'
+
+2019-05-02 14:15:01 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'This product created for Automation of Edit page functionalities.'
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - If (productName.equals("1-Auto-edit")): null
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - If (!(productDescription.isEmpty())): null
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:01 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is NOT clickable
+
+2019-05-02 14:15:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is NOT clickable
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - unkownComponentName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/unknown_Component), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-02 14:15:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - If (unkownComponentName.equals("Unknown")): null
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - unkownComponentDesc = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/unkown_description), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is: 'unknown'
+
+2019-05-02 14:15:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is: 'unknown'
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - unkownComponentDefaultAsignee = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/unkown_defaultAssignee), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is: 'kumar.nagendra@happiestminds.com'
+
+2019-05-02 14:15:02 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is: 'kumar.nagendra@happiestminds.com'
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - If (!(unkownComponentDesc.isEmpty()) && !(unkownComponentDefaultAsignee.isEmpty())): null
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:04 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/default_UnknownComponent" classname="Test Cases/Edit_Product/default_UnknownComponent" status="PASSED">
+         <system-out><![CDATA[2019-05-02 14:15:04 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/default_UnknownComponent: Test Cases/Edit_Product/default_UnknownComponent
+
+2019-05-02 14:15:04 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/delete_icon_unknownCompnent), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is present
+
+2019-05-02 14:15:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/confirmDeleteProduct_popup), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-02 14:15:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-02 14:15:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_component_Yes), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-02 14:15:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is present
+
+2019-05-02 14:15:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-02 14:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-02 14:15:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:08 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product_atleast_1_component), 0)): null
+
+2019-05-02 14:15:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is present
+
+2019-05-02 14:15:08 - [TEST_STEP][PASSED] - Statement - warningMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product_atleast_1_component)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is: 'Product must have at least 1 component.'
+
+2019-05-02 14:15:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is: 'Product must have at least 1 component.'
+
+2019-05-02 14:15:09 - [TEST_STEP][PASSED] - Statement - If (warningMessage.equals("Product must have at least 1 component.")): null
+
+2019-05-02 14:15:09 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/update_icon_unknownComponent), 0)): null
+
+2019-05-02 14:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is present
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Nothing to update), 0)): null
+
+2019-05-02 14:15:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is present
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - Statement - nothingToUpdate = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Nothing to update)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - Statement - If (nothingToUpdate.equals("Nothing to update.")): null
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - setText: Text 'unknown1234' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Text 'unknown1234' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-02 14:15:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-02 14:15:12 - [TEST_STEP][PASSED] - setText: Text 'divya.r@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-02 14:15:13 - [MESSAGE][PASSED] - Text 'divya.r@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-02 14:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component has been updated), 0)): null
+
+2019-05-02 14:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is present
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - Statement - componentUpdatedMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component has been updated)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is: 'Component has been updated successfully.'
+
+2019-05-02 14:15:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is: 'Component has been updated successfully.'
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - Statement - If (componentUpdatedMsg.equals("Component has been updated successfully.")): null
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:13 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-05-02 14:15:17 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-02 14:15:17 - [TEST_STEP][PASSED] - reusable.editPage.resetUnkownComponent: reusable.editPage.resetUnkownComponent is PASSED
+
+2019-05-02 14:15:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-02 14:15:18 - [MESSAGE][PASSED] - Text 'unknown' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-02 14:15:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-02 14:15:18 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-02 14:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-02 14:15:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:20 - [MESSAGE][PASSED] - reusable.editPage.resetUnkownComponent is PASSED
+
+2019-05-02 14:15:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:23 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/component_section" classname="Test Cases/Edit_Product/component_section" status="PASSED">
+         <system-out><![CDATA[2019-05-02 14:15:23 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/component_section: Test Cases/Edit_Product/component_section
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_AddNewRow_Component), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-02 14:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-02 14:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - setText: Text 'C1 description' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-02 14:15:24 - [MESSAGE][PASSED] - Text 'C1 description' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Add_component), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is present
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Name_Email_required), 0)): null
+
+2019-05-02 14:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is present
+
+2019-05-02 14:15:25 - [TEST_STEP][PASSED] - Statement - componentNameEmailReqMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Name_Email_required)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is: 'Name is required, Email is required'
+
+2019-05-02 14:15:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is: 'Name is required, Email is required'
+
+2019-05-02 14:15:25 - [TEST_STEP][PASSED] - Statement - If (componentNameEmailReqMsg.equals("Name is required, Email is required")): null
+
+2019-05-02 14:15:25 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:27 - [TEST_STEP][PASSED] - setText: Text 'C1' is set on object 'Object Repository/Page_BugsUI Edit Product/unknown_Component'
+
+2019-05-02 14:15:27 - [MESSAGE][PASSED] - Text 'C1' is set on object 'Object Repository/Page_BugsUI Edit Product/unknown_Component'
+
+2019-05-02 14:15:27 - [TEST_STEP][PASSED] - setText: Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-02 14:15:28 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-02 14:15:28 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Add_component), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is present
+
+2019-05-02 14:15:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-02 14:15:28 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component_added), 0)): null
+
+2019-05-02 14:15:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is present
+
+2019-05-02 14:15:29 - [TEST_STEP][PASSED] - Statement - componentAddedSuccessMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component_added)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is: 'Component has been added successfully.'
+
+2019-05-02 14:15:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is: 'Component has been added successfully.'
+
+2019-05-02 14:15:29 - [TEST_STEP][PASSED] - Statement - If (componentAddedSuccessMsg.equals("Component has been added successfully.")): null
+
+2019-05-02 14:15:29 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-02 14:15:32 - [TEST_STEP][PASSED] - Statement - compName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/unknown_Component), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'C1'
+
+2019-05-02 14:15:32 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'C1'
+
+2019-05-02 14:15:32 - [TEST_STEP][PASSED] - Statement - If (compName.equals("C1")): null
+
+2019-05-02 14:15:32 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-02 14:15:35 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/delete_icon_unknownCompnent), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is present
+
+2019-05-02 14:15:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-02 14:15:35 - [TEST_STEP][PASSED] - reusable.editPage.deleteComponent: reusable.editPage.deleteComponent is PASSED
+
+2019-05-02 14:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-02 14:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is present
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-02 14:15:35 - [MESSAGE][PASSED] - reusable.editPage.deleteComponent is PASSED
+
+2019-05-02 14:15:35 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component_deleted), 0)): null
+
+2019-05-02 14:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is present
+
+2019-05-02 14:15:36 - [TEST_STEP][PASSED] - Statement - componentDeletedSuccessMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Component_deleted)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is: 'Component has been deleted successfully.'
+
+2019-05-02 14:15:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is: 'Component has been deleted successfully.'
+
+2019-05-02 14:15:36 - [TEST_STEP][PASSED] - Statement - If (componentDeletedSuccessMsg.equals("Component has been deleted successfully.")): null
+
+2019-05-02 14:15:36 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:38 - [TEST_STEP][PASSED] - Statement - If (!(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/unknown_Component), "value").equals("C1"))): null
+
+2019-05-02 14:15:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-02 14:15:38 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:41 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/version_section" classname="Test Cases/Edit_Product/version_section" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})"/>
+         <system-out><![CDATA[2019-05-02 14:15:41 - [TEST_CASE][FAILED] - Test Cases/Edit_Product/version_section: Test Cases/Edit_Product/version_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})
+
+2019-05-02 14:15:42 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/delete_icon_version), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_version' is clicked on
+
+2019-05-02 14:15:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/delete_icon_version' is present
+
+2019-05-02 14:15:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_version' is clicked on
+
+2019-05-02 14:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_version' is clicked on
+
+2019-05-02 14:15:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:44 - [TEST_STEP][PASSED] - reusable.editPage.deleteVersion: reusable.editPage.deleteVersion is PASSED
+
+2019-05-02 14:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-02 14:15:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_version_Yes' is present
+
+2019-05-02 14:15:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_version_Yes' is clicked on
+
+2019-05-02 14:15:44 - [MESSAGE][PASSED] - reusable.editPage.deleteVersion is PASSED
+
+2019-05-02 14:15:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-02 14:15:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product_atleast_1_version), 0)): null
+
+2019-05-02 14:15:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_version' is present
+
+2019-05-02 14:15:46 - [TEST_STEP][PASSED] - Statement - warningMessage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product_atleast_1_version)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_version' is: 'Product must have atleast 1 version.'
+
+2019-05-02 14:15:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_version' is: 'Product must have atleast 1 version.'
+
+2019-05-02 14:15:46 - [TEST_STEP][PASSED] - Statement - If (warningMessage.equals("Product must have atleast 1 version.")): null
+
+2019-05-02 14:15:46 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/update_icon_version), 0)): null
+
+2019-05-02 14:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/update_icon_version' is present
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_version' is clicked on
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_version' is clicked on
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Nothing to update), 0)): null
+
+2019-05-02 14:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is present
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - nothingToUpdate = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Nothing to update)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (nothingToUpdate.equals("Nothing to update.")): null
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_AddNewRow_version), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is clicked on
+
+2019-05-02 14:15:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is clicked on
+
+2019-05-02 14:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is clicked on
+
+2019-05-02 14:15:49 - [TEST_STEP][PASSED] - setText: Text 'V7' is set on object 'Object Repository/Page_BugsUI Edit Product/input_versionName'
+
+2019-05-02 14:15:50 - [MESSAGE][PASSED] - Text 'V7' is set on object 'Object Repository/Page_BugsUI Edit Product/input_versionName'
+
+2019-05-02 14:15:50 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Add_version), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_version' is clicked on
+
+2019-05-02 14:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:15:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Add_version' is present
+
+2019-05-02 14:15:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_version' is clicked on
+
+2019-05-02 14:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_version' is clicked on
+
+2019-05-02 14:15:50 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Version_added), 0)): Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})
+
+2019-05-02 14:15:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-02 14:16:06 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-05-02 14:16:06 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})]]></system-out>
+         <system-err><![CDATA[2019-05-02 14:15:41 - [TEST_CASE][FAILED] - Test Cases/Edit_Product/version_section: Test Cases/Edit_Product/version_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-02 14:14:20 - [TEST_SUITE][FAILED] - Edit_Product_Suite: Test Cases/Edit_Product/version_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})]]></system-out>
+      <system-err><![CDATA[2019-05-02 14:14:20 - [TEST_SUITE][FAILED] - Edit_Product_Suite: Test Cases/Edit_Product/version_section FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Edit Product/div_Version_added' is present (Root cause: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : }
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\KUMAR~1.NAG\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: fb7b1864a15c0af0e969ac525a467615
+*** Element info: {Using=xpath, value=//div[(text() = 'Version has been added successfully.' or . = 'Version has been added successfully.')]})]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Product_Add_Suite" time="95" tests="2" failures="1" errors="0">
+   <testsuite name="Product_Add_Suite" tests="2" failures="1" errors="0" time="95" timestamp="2019-05-03 12:11:44" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/Product_Add_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143"/>
+         <property name="logFiles" value="C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143\\execution0.log"/>
+         <property name="attachments" value="C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143\\1556865755058.png, C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143\\1556865755475.png"/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.95.75.221"/>
+         <property name="sessionId" value="1abc3c94455909c3110389794faa6c31"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Add_Product/AddProductFields_verification" classname="Test Cases/Add_Product/AddProductFields_verification" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)"/>
+         <system-out><![CDATA[2019-05-03 12:11:45 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddProductFields_verification: Test Cases/Add_Product/AddProductFields_verification FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)
+
+2019-05-03 12:11:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-05-03 12:11:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-03 12:11:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-03 12:12:02 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-03 12:12:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:12:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:12:05 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login: reusable.loginBugZillaUI.login is PASSED
+
+2019-05-03 12:12:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 12:12:05 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-03 12:12:06 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-03 12:12:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-03 12:12:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-03 12:12:06 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-03 12:12:06 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2019-05-03 12:12:12 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-03 12:12:12 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-03 12:12:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-03 12:12:12 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/button_Product), 10)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-03 12:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-03 12:12:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-03 12:12:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-03 12:12:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:14 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Add), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-03 12:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Add' is present
+
+2019-05-03 12:12:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-03 12:12:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-03 12:12:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/span_Add Product), 0)): null
+
+2019-05-03 12:12:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/span_Add Product' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))): null
+
+2019-05-03 12:12:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-03 12:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-03 12:12:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - setText: Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - setText: Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))): null
+
+2019-05-03 12:12:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:20 - [TEST_STEP][PASSED] - setText: Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-03 12:12:21 - [MESSAGE][PASSED] - Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-03 12:12:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-03 12:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-03 12:12:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))): null
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - setText: Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))): null
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - setText: Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))): null
+
+2019-05-03 12:12:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-03 12:12:24 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:25 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-03 12:12:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-03 12:12:25 - [TEST_STEP][PASSED] - setText: Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:25 - [MESSAGE][PASSED] - Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-03 12:12:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-03 12:12:25 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is present
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is present
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/div_Product BugsUITest already)): Text of object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is: 'Product BugsUITest already exists.'
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is: 'Product BugsUITest already exists.'
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - Statement - If (text.equals("Product BugsUITest already exists.")): null
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - setText: Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-03 12:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-03 12:12:29 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-05-03 12:12:33 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-03 12:12:33 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)
+
+2019-05-03 12:12:35 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found
+[[ATTACHMENT|C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143\\1556865755058.png]]
+
+2019-05-03 12:12:35 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)
+[[ATTACHMENT|C:\\New-Bugzilla-Application\\New_Bugzilla-UI-V2\\Reports\\Product_Add_Suite\\20190503_121143\\1556865755475.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-03 12:11:45 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddProductFields_verification: Test Cases/Add_Product/AddProductFields_verification FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/AddedProductAvailability" classname="Test Cases/Add_Product/AddedProductAvailability" status="PASSED">
+         <system-out><![CDATA[2019-05-03 12:12:35 - [TEST_CASE][PASSED] - Test Cases/Add_Product/AddedProductAvailability: Test Cases/Add_Product/AddedProductAvailability
+
+2019-05-03 12:12:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:12:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:12:39 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New Bug), 0)): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-03 12:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is present
+
+2019-05-03 12:12:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-03 12:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-03 12:12:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:12:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:12:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-03 12:12:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-03 12:12:43 - [TEST_STEP][PASSED] - setText: Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-03 12:12:43 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-03 12:12:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-03 12:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-03 12:12:45 - [TEST_STEP][PASSED] - setText: Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-03 12:12:46 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-03 12:12:46 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/span_1-Automation-testing), 0)): null
+
+2019-05-03 12:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is present
+
+2019-05-03 12:12:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is clicked on
+
+2019-05-03 12:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is clicked on
+
+2019-05-03 12:12:47 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:12:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:12:50 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/Delete_added_product" classname="Test Cases/Add_Product/Delete_added_product" status="PASSED">
+         <system-out><![CDATA[2019-05-03 12:12:50 - [TEST_CASE][PASSED] - Test Cases/Add_Product/Delete_added_product: Test Cases/Add_Product/Delete_added_product
+
+2019-05-03 12:12:50 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/button_Product), 10)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-03 12:12:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-03 12:12:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-03 12:12:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-03 12:12:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:52 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_Edit), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-03 12:12:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Edit' is present
+
+2019-05-03 12:12:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-03 12:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-03 12:12:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:54 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-05-03 12:12:54 - [MESSAGE][PASSED] - Alert accepted
+
+2019-05-03 12:12:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-03 12:12:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:12:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-03 12:12:56 - [TEST_STEP][PASSED] - setText: Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-03 12:12:56 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-03 12:12:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:12:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:12:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-03 12:12:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-03 12:12:58 - [TEST_STEP][PASSED] - setText: Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-03 12:12:59 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-03 12:12:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-05-03 12:13:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-03 12:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Automation-testing' is clicked on
+
+2019-05-03 12:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Automation-testing' is clicked on
+
+2019-05-03 12:13:01 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-03 12:13:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-03 12:13:01 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Delete Product), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-03 12:13:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-05-03 12:13:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-03 12:13:06 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Delete Product))): Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clickable
+
+2019-05-03 12:13:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:13:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:13:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/confirmDeleteProduct_popup), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-03 12:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-03 12:13:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_No), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-03 12:13:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_No' is present
+
+2019-05-03 12:13:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-03 12:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-03 12:13:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:13:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:13:12 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-03 12:13:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-03 12:13:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-03 12:13:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:13:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:13:15 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/confirmDeleteProduct_popup), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-03 12:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-03 12:13:15 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_deleteProduct_Yes), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-03 12:13:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is present
+
+2019-05-03 12:13:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-03 12:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-03 12:13:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-05-03 12:13:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-03 12:13:19 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product has been deleted), 0)): null
+
+2019-05-03 12:13:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-03 12:13:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is present
+
+2019-05-03 12:13:19 - [TEST_STEP][PASSED] - Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product has been deleted)): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is: 'Product has been deleted successfully.'
+
+2019-05-03 12:13:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is: 'Product has been deleted successfully.'
+
+2019-05-03 12:13:19 - [TEST_STEP][PASSED] - Statement - If (text.equals("Product has been deleted successfully.")): null
+
+2019-05-03 12:13:19 - [TEST_STEP][PASSED] - Statement - assert true: null
+
+2019-05-03 12:13:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-05-03 12:13:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 12:11:44 - [TEST_SUITE][FAILED] - Product_Add_Suite: Test Cases/Add_Product/AddProductFields_verification FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)]]></system-out>
+      <system-err><![CDATA[2019-05-03 12:11:44 - [TEST_SUITE][FAILED] - Product_Add_Suite: Test Cases/Add_Product/AddProductFields_verification FAILED because (of) Unable to verify object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' located by 'By.xpath: //div[@class = 'ui-toast-detail' and (text() = 'Product has been added successfully.' or . = 'Product has been added successfully.')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

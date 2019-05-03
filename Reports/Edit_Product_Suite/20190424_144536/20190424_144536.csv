@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Edit_Product_Suite,Chrome 73.0.3683.103,,2019-04-24 14:45:39,2019-04-24 14:46:22,43.211s,FAILED
+,,,,,,
+Test Cases/Edit_Product/Edit_product_fields,Chrome 73.0.3683.103,,2019-04-24 14:45:39,2019-04-24 14:46:21,41.466s,PASSED
+openBrowser,Chrome 73.0.3683.103,,2019-04-24 14:45:39,2019-04-24 14:45:43,3.019s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-04-24 14:45:43,2019-04-24 14:45:56,13.762s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-24 14:45:56,2019-04-24 14:45:59,3.046s,PASSED
+reusable.loginBugZillaUI.login,Chrome 73.0.3683.103,,2019-04-24 14:45:59,2019-04-24 14:46:01,1.243s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-24 14:46:01,2019-04-24 14:46:07,6.010s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0))",Chrome 73.0.3683.103,,2019-04-24 14:46:07,2019-04-24 14:46:09,2.349s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:09,2019-04-24 14:46:11,2.119s,PASSED
+reusable.editPage.selectProduct,Chrome 73.0.3683.103,,2019-04-24 14:46:11,2019-04-24 14:46:18,7.083s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.049s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.028s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.027s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_update_product))),Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.063s,PASSED
+scrollToElement,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.050s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.054s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.024s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.023s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:18,0.028s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:18,2019-04-24 14:46:19,0.022s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-24 14:46:19,2019-04-24 14:46:19,0.024s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-24 14:46:19,2019-04-24 14:46:21,2.003s,PASSED
+,,,,,,
+Test Cases/Edit_Product/verify_values_prepopulated,Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.372s,FAILED
+Statement - productName = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/input_newName)),Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.050s,PASSED
+Statement - productDescription = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/textarea_description)),Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.045s,PASSED
+"Statement - println(""product name is ---"" + productName)",Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.009s,PASSED
+"Statement - If (productName.equals(""1-Auto-edit""))",Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.002s,PASSED
+Statement - Else,Chrome 73.0.3683.103,,2019-04-24 14:46:21,2019-04-24 14:46:21,0.004s,PASSED

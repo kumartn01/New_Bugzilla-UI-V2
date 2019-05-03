@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login_suite,Chrome 73.0.3683.103,,2019-05-03 12:28:22,2019-05-03 12:28:58,36.332s,PASSED
+,,,,,,
+Test Cases/Login/Bugzilla-LoginPage-Loads,Chrome 73.0.3683.103,,2019-05-03 12:28:22,2019-05-03 12:28:41,18.149s,PASSED
+openBrowser,Chrome 73.0.3683.103,,2019-05-03 12:28:23,2019-05-03 12:28:26,3.163s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-05-03 12:28:26,2019-05-03 12:28:34,7.874s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:28:34,2019-05-03 12:28:39,5.043s,PASSED
+maximizeWindow,Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:39,0.144s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:39,0.121s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:39,0.084s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:39,0.082s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI/label_rememberMe)).equals(""Remember me""))",Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:39,0.094s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI/button_Login))),Chrome 73.0.3683.103,,2019-05-03 12:28:39,2019-05-03 12:28:40,0.098s,PASSED
+closeBrowser,Chrome 73.0.3683.103,,2019-05-03 12:28:40,2019-05-03 12:28:41,0.938s,PASSED
+,,,,,,
+Test Cases/Login/Valid_Login,Chrome 73.0.3683.103,,2019-05-03 12:28:41,2019-05-03 12:28:58,17.643s,PASSED
+openBrowser,Chrome 73.0.3683.103,,2019-05-03 12:28:41,2019-05-03 12:28:42,1.507s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-05-03 12:28:42,2019-05-03 12:28:48,5.698s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:28:48,2019-05-03 12:28:53,5.002s,PASSED
+maximizeWindow,Chrome 73.0.3683.103,,2019-05-03 12:28:53,2019-05-03 12:28:53,0.134s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:28:53,2019-05-03 12:28:53,0.248s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:28:53,2019-05-03 12:28:54,0.233s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI/button_Login))),Chrome 73.0.3683.103,,2019-05-03 12:28:54,2019-05-03 12:28:54,0.191s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:28:54,2019-05-03 12:28:57,3.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0))",Chrome 73.0.3683.103,,2019-05-03 12:28:57,2019-05-03 12:28:57,0.570s,PASSED
+closeBrowser,Chrome 73.0.3683.103,,2019-05-03 12:28:57,2019-05-03 12:28:58,0.776s,PASSED

@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Product_Add_Suite,Chrome 73.0.3683.103,,2019-04-22 11:55:28,2019-04-22 11:56:24,56.081s,FAILED
+,,,,,,
+Test Cases/Add_Product/AddProductFields_verification,Chrome 73.0.3683.103,,2019-04-22 11:55:29,2019-04-22 11:56:12,43.499s,PASSED
+openBrowser,Chrome 73.0.3683.103,,2019-04-22 11:55:29,2019-04-22 11:55:32,2.657s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-04-22 11:55:32,2019-04-22 11:55:47,14.624s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:55:47,2019-04-22 11:55:50,3.046s,PASSED
+reusable.loginBugZillaUI.login,Chrome 73.0.3683.103,,2019-04-22 11:55:50,2019-04-22 11:55:50,0.865s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:55:50,2019-04-22 11:55:56,6.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0))",Chrome 73.0.3683.103,,2019-04-22 11:55:56,2019-04-22 11:55:59,2.414s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:55:59,2019-04-22 11:56:02,3.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/span_Add Product), 0))",Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.079s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.034s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.025s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.023s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.022s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.035s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.021s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.027s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.063s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:02,0.099s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:02,2019-04-22 11:56:04,2.003s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:04,2019-04-22 11:56:04,0.134s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:04,2019-04-22 11:56:05,0.262s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:05,2019-04-22 11:56:05,0.299s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:05,2019-04-22 11:56:05,0.121s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-04-22 11:56:05,2019-04-22 11:56:05,0.029s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:05,2019-04-22 11:56:05,0.303s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:05,2019-04-22 11:56:07,1.179s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:07,2019-04-22 11:56:09,2.004s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.062s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.167s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.028s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.035s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.254s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.028s,PASSED
+clearText,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.052s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:09,0.213s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:09,2019-04-22 11:56:10,0.086s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:10,2019-04-22 11:56:11,1.002s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.058s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/div_Product BugsUITest already)),Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.059s,PASSED
+"Statement - If (text.equals(""Product BugsUITest already exists.""))",Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.003s,PASSED
+clearText,Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.043s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.336s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:11,0.063s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:11,2019-04-22 11:56:12,1.002s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:12,2019-04-22 11:56:12,0.046s,PASSED
+Statement - successMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/div_Product_added_success)),Chrome 73.0.3683.103,,2019-04-22 11:56:12,2019-04-22 11:56:12,0.042s,PASSED
+"Statement - If (successMsg.equals(""Product has been added successfully.""))",Chrome 73.0.3683.103,,2019-04-22 11:56:12,2019-04-22 11:56:12,0.000s,PASSED
+,,,,,,
+Test Cases/Add_Product/AddedProductAvailability,Chrome 73.0.3683.103,,2019-04-22 11:56:12,2019-04-22 11:56:23,11.144s,FAILED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:12,2019-04-22 11:56:15,3.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New Bug), 0))",Chrome 73.0.3683.103,,2019-04-22 11:56:15,2019-04-22 11:56:16,0.157s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 11:56:16,2019-04-22 11:56:19,3.003s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 11:56:19,2019-04-22 11:56:23,4.255s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 11:56:23,2019-04-22 11:56:23,0.551s,FAILED

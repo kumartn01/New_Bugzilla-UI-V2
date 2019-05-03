@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Product_Add_Suite,Chrome 73.0.3683.103,,2019-05-03 12:11:44,2019-05-03 12:13:20,1m - 35.157s,FAILED
+,,,,,,
+Test Cases/Add_Product/AddProductFields_verification,Chrome 73.0.3683.103,,2019-05-03 12:11:45,2019-05-03 12:12:35,50.562s,FAILED
+openBrowser,Chrome 73.0.3683.103,,2019-05-03 12:11:45,2019-05-03 12:11:48,2.739s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-05-03 12:11:48,2019-05-03 12:12:02,13.794s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:02,2019-05-03 12:12:05,3.033s,PASSED
+reusable.loginBugZillaUI.login,Chrome 73.0.3683.103,,2019-05-03 12:12:05,2019-05-03 12:12:06,0.916s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:06,2019-05-03 12:12:12,6.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/span_Dashboard), 0))",Chrome 73.0.3683.103,,2019-05-03 12:12:12,2019-05-03 12:12:14,2.357s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:14,2019-05-03 12:12:17,3.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/span_Add Product), 0))",Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.074s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.025s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.033s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.030s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.012s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.031s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.022s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.029s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:17,0.071s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:17,2019-05-03 12:12:18,0.103s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:18,2019-05-03 12:12:20,2.005s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:20,0.143s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:20,0.286s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:20,0.289s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:20,0.123s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:20,0.030s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:20,2019-05-03 12:12:21,0.277s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:21,2019-05-03 12:12:22,1.173s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:22,2019-05-03 12:12:24,2.004s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.072s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.177s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.026s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.034s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.257s,PASSED
+Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/AddProduct_button))),Chrome 73.0.3683.103,,2019-05-03 12:12:24,2019-05-03 12:12:24,0.027s,PASSED
+clearText,Chrome 73.0.3683.103,,2019-05-03 12:12:25,2019-05-03 12:12:25,0.048s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:25,2019-05-03 12:12:25,0.190s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:25,2019-05-03 12:12:25,0.086s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:25,2019-05-03 12:12:29,4.003s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.070s,PASSED
+Statement - text = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Add Product/div_Product BugsUITest already)),Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.069s,PASSED
+"Statement - If (text.equals(""Product BugsUITest already exists.""))",Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.004s,PASSED
+clearText,Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.051s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.350s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:29,0.085s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:29,2019-05-03 12:12:33,4.002s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:33,2019-05-03 12:12:35,1.905s,FAILED
+,,,,,,
+Test Cases/Add_Product/AddedProductAvailability,Chrome 73.0.3683.103,,2019-05-03 12:12:35,2019-05-03 12:12:50,14.146s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:36,2019-05-03 12:12:39,3.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/a_New Bug), 0))",Chrome 73.0.3683.103,,2019-05-03 12:12:39,2019-05-03 12:12:39,0.162s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:39,2019-05-03 12:12:42,3.004s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:42,2019-05-03 12:12:43,1.145s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:43,2019-05-03 12:12:43,0.355s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:43,2019-05-03 12:12:45,2.004s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:45,2019-05-03 12:12:45,0.176s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:45,2019-05-03 12:12:46,0.421s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI New Bug/span_1-Automation-testing), 0))",Chrome 73.0.3683.103,,2019-05-03 12:12:46,2019-05-03 12:12:47,0.690s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:47,2019-05-03 12:12:50,3.001s,PASSED
+,,,,,,
+Test Cases/Add_Product/Delete_added_product,Chrome 73.0.3683.103,,2019-05-03 12:12:50,2019-05-03 12:13:20,30.004s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Dashboard/button_Product), 10))",Chrome 73.0.3683.103,,2019-05-03 12:12:50,2019-05-03 12:12:52,2.271s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:52,2019-05-03 12:12:54,2.001s,PASSED
+acceptAlert,Chrome 73.0.3683.103,,2019-05-03 12:12:54,2019-05-03 12:12:54,0.037s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:54,2019-05-03 12:12:56,2.001s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:12:56,2019-05-03 12:12:56,0.029s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:56,2019-05-03 12:12:56,0.288s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:56,2019-05-03 12:12:58,2.001s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:12:58,2019-05-03 12:12:58,0.104s,PASSED
+setText,Chrome 73.0.3683.103,,2019-05-03 12:12:58,2019-05-03 12:12:59,0.340s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:12:59,2019-05-03 12:13:01,2.002s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:13:01,2019-05-03 12:13:01,0.115s,PASSED
+scrollToElement,Chrome 73.0.3683.103,,2019-05-03 12:13:01,2019-05-03 12:13:01,0.049s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/button_Delete Product), 0))",Chrome 73.0.3683.103,,2019-05-03 12:13:01,2019-05-03 12:13:06,5.157s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:13:06,2019-05-03 12:13:09,3.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/confirmDeleteProduct_popup), 0))",Chrome 73.0.3683.103,,2019-05-03 12:13:09,2019-05-03 12:13:09,0.183s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:13:09,2019-05-03 12:13:12,3.001s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-05-03 12:13:12,2019-05-03 12:13:12,0.032s,PASSED
+click,Chrome 73.0.3683.103,,2019-05-03 12:13:12,2019-05-03 12:13:12,0.112s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:13:12,2019-05-03 12:13:15,3.002s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/confirmDeleteProduct_popup), 0))",Chrome 73.0.3683.103,,2019-05-03 12:13:15,2019-05-03 12:13:16,0.165s,PASSED
+delay,Chrome 73.0.3683.103,,2019-05-03 12:13:16,2019-05-03 12:13:19,3.001s,PASSED
+"Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_BugsUI Edit Product/div_Product has been deleted), 0))",Chrome 73.0.3683.103,,2019-05-03 12:13:19,2019-05-03 12:13:19,0.071s,PASSED
+closeBrowser,Chrome 73.0.3683.103,,2019-05-03 12:13:19,2019-05-03 12:13:20,0.806s,PASSED

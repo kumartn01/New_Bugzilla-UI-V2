@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>unknown_Component</name>
+   <tag></tag>
+   <elementGuidId>75911142-8a1e-4f08-af59-2927c71ee331</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody[@class=&quot;ui-table-tbody&quot;]/tr/td[@width=&quot;18%&quot;]/input</value>
+   </webElementProperties>
+</WebElementEntity>
