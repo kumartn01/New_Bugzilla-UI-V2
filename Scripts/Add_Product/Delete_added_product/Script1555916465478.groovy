@@ -33,7 +33,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/button_Produ
 	}
 }
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.acceptAlert()
 
