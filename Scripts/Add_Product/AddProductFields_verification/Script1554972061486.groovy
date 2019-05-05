@@ -196,16 +196,17 @@ WebUI.click(findTestObject('Page_BugsUI Add Product/AddProduct_button'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 3)
+if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 3)){
 
-String successMsg = WebUI.getText(findTestObject('Page_BugsUI Add Product/div_Product_added_success'))
-
-if(successMsg.equals("Product has been added successfully.")){
+	String successMsg = WebUI.getText(findTestObject('Page_BugsUI Add Product/div_Product_added_success'))
 	
-	assert true
-}
-else{
-	assert false
+	if(successMsg.equals("Product has been added successfully.")){
+		
+		assert true
+	}
+	else{
+		assert false
+	}
 }
 
 WebUI.delay(2)

@@ -33,11 +33,14 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/button_Produ
 	}
 }
 
-WebUI.delay(4)
-
-WebUI.acceptAlert()
-
 WebUI.delay(2)
+
+if(WebUI.verifyAlertPresent(3)){
+	
+	WebUI.acceptAlert()
+}
+
+WebUI.delay(4)
 
 WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Edit Product"), 0)
 
