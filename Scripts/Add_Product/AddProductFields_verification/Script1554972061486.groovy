@@ -194,9 +194,9 @@ WebUI.setText(findTestObject('Page_BugsUI Add Product/input_name'), "1-Automatio
 
 WebUI.click(findTestObject('Page_BugsUI Add Product/AddProduct_button'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 3)){
+WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 1)
 
 	String successMsg = WebUI.getText(findTestObject('Page_BugsUI Add Product/div_Product_added_success'))
 	
@@ -207,7 +207,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Produc
 	else{
 		assert false
 	}
-}
+
 
 WebUI.delay(2)
 
