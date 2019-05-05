@@ -18,28 +18,25 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
-
-import internal.GlobalVariable
-
+import internal.GlobalVariable as GlobalVariable
 import MobileBuiltInKeywords as Mobile
 import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class loginBugZillaUI {
-	
+
 	@Keyword
 	def login (){
-		
+
 		WebUI.maximizeWindow()
-		
-		WebUI.setText(findTestObject('Page_BugsUI/input_username'), GlobalVariable.login_Username)
-		
-		WebUI.setText(findTestObject('Page_BugsUI/input_password'), GlobalVariable.login_password)
-		
+
+		WebUI.setText(findTestObject('Page_BugsUI/input_username'), 'knagendra-ext')
+
+		WebUI.setText(findTestObject('Page_BugsUI/input_password'), 'Kum1!@#$%^&*()ar')
+
 		if(WebUI.verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))){
-			
+
 			WebUI.click(findTestObject('Page_BugsUI/button_Login'))
 		}
 	}
-
 }

@@ -21,11 +21,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://us142.sjc.aristanetworks.com:3000/')
+WebUI.navigateToUrl(GlobalVariable.applicationUrl)
 
 WebUI.delay(5)
 
+
 WebUI.maximizeWindow()
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_BugsUI/input_username'), 'knagendra-ext')
 

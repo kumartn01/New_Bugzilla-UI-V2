@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_New Bug"), 0)){
 	
@@ -34,6 +34,8 @@ WebUI.setText(findTestObject("Page_BugsUI New Bug/div_Choose Classification"), "
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BugsUI New Bug/span_Software'))
+
+WebUI.delay(3)
 
 WebUI.setText(findTestObject('Page_BugsUI New Bug/div_Choose Package'), "1-Automation-testing")
 

@@ -25,9 +25,20 @@ WebUI.navigateToUrl(GlobalVariable.applicationUrl)
 
 WebUI.delay(3)
 
-CustomKeywords.'reusable.loginBugZillaUI.login'()
+WebUI.maximizeWindow()
 
-WebUI.delay(6)
+WebUI.delay(2)
+		
+WebUI.setText(findTestObject('Page_BugsUI/input_username'), 'knagendra-ext')
+
+WebUI.setText(findTestObject('Page_BugsUI/input_password'), 'Kum1!@#$%^&*()ar')
+
+if(WebUI.verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))){
+	
+	WebUI.click(findTestObject('Page_BugsUI/button_Login'))
+}
+
+WebUI.delay(4)
 
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/span_Dashboard'), 0)){
 	
@@ -64,7 +75,7 @@ else{
 	assert false
 }
 
-WebUI.scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 1)
+WebUI.scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 2)
 
 WebUI.verifyElementPresent(findTestObject('Page_BugsUI Edit Product/div_Component Information'), 0)
 

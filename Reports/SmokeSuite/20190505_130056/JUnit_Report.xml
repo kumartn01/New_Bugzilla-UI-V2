@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeSuite" time="232" tests="8" failures="3" errors="0">
+   <testsuite name="SmokeSuite" tests="8" failures="3" errors="0" time="232" timestamp="2019-05-05 13:00:59" hostname="HMECL001948$ - HMECL001948.happiestminds.com" id="Test Suites/SmokeSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190505_130056"/>
+         <property name="logFiles" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190505_130056\\execution0.log"/>
+         <property name="attachments" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190505_130056\\1557041544149.png"/>
+         <property name="hostName" value="HMECL001948$ - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.95.75.221"/>
+         <property name="sessionId" value="8ade90902b9591edd8a0f2d30aa27e6e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Bugzilla-LoginPage-Loads" classname="Test Cases/Login/Bugzilla-LoginPage-Loads" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:01:00 - [TEST_CASE][PASSED] - Test Cases/Login/Bugzilla-LoginPage-Loads: Test Cases/Login/Bugzilla-LoginPage-Loads
+
+2019-05-05 13:01:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 13:01:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 13:01:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-05 13:01:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 13:01:05 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:01:17 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:01:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/input_username"), 0): Object 'Object Repository/Page_BugsUI/input_username' is present
+
+2019-05-05 13:01:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/input_username' is present
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/input_password"), 0): Object 'Object Repository/Page_BugsUI/input_password' is present
+
+2019-05-05 13:01:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/input_password' is present
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/checkbox_RememberMe"), 0): Object 'Object Repository/Page_BugsUI/checkbox_RememberMe' is present
+
+2019-05-05 13:01:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/checkbox_RememberMe' is present
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - if (getText(findTestObject("Page_BugsUI/label_rememberMe")).equals("Remember me")): null
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI/label_rememberMe' is: 'Remember me'
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI/button_Login"))): null
+
+2019-05-05 13:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is NOT clickable
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:01:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-05 13:01:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Valid_Login" classname="Test Cases/Login/Valid_Login" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:01:23 - [TEST_CASE][PASSED] - Test Cases/Login/Valid_Login: Test Cases/Login/Valid_Login
+
+2019-05-05 13:01:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 13:01:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 13:01:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 13:01:24 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:01:36 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:01:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-05 13:01:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-05 13:01:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-05 13:01:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-05 13:01:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-05 13:01:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-05 13:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_username"), "knagendra-ext"): Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-05 13:01:43 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-05 13:01:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_password"), "Kum1!@#$%^&*()ar"): Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-05 13:01:43 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-05 13:01:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-05 13:01:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-05 13:01:44 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-05 13:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI/button_Login")): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:01:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:01:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:01:47 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-05 13:01:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:01:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-05 13:01:47 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:01:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-05 13:01:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/AddProductFields_verification" classname="Test Cases/Add_Product/AddProductFields_verification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add_Product/AddProductFields_verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-c10=&quot;&quot; class=&quot;btn btn-sm btn-primary&quot; type=&quot;button&quot;>...&lt;/button> is not clickable at point (336, 635). Other element would receive the click: &lt;a _ngcontent-c2=&quot;&quot; href=&quot;/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;amp;reporter=kumar.nagendra@happiestminds.com&quot;>...&lt;/a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-05 13:01:48 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddProductFields_verification: Test Cases/Add_Product/AddProductFields_verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more
+
+
+2019-05-05 13:01:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 13:01:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 13:01:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 13:01:50 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:02:02 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:02:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:02:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:02:05 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login(): reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:02:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-05 13:02:05 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-05 13:02:06 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-05 13:02:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-05 13:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:02:06 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:02:06 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-05-05 13:02:12 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-05 13:02:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-05 13:02:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:02:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-05 13:02:12 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): null
+
+2019-05-05 13:02:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-05 13:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/button_Product")): Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-05 13:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-05 13:02:12 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:02:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:02:14 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_Add"), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-05 13:02:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Add' is present
+
+2019-05-05 13:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_Add")): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-05 13:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-05 13:02:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Add Product/span_Add Product"), 0)): null
+
+2019-05-05 13:02:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/span_Add Product' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Choose Classification"), 3): Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_name"), 2): Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/textarea_description"), 1): Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/checkbox_closedForBugEntry"), 1): Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_version"), 1): Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_component"), 1): Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Choose Assignee"), 1): Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/div_Choose Classification")): Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-05 13:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-05 13:02:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:02:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/span_Software")): Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-05 13:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-05 13:02:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_name"), "1-Automation-testing"): Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-05 13:02:20 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/textarea_description"), "1-Automation-testing Description"): Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-05 13:02:20 - [MESSAGE][PASSED] - Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_version"), "1"): Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-05 13:02:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-05 13:02:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/defaultAssigne_inputbox"), "kumar nagendra"): Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-05 13:02:20 - [MESSAGE][PASSED] - Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-05 13:02:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/span_kumar.nagendra")): Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-05 13:02:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-05 13:02:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_component"), "Auto-1"): Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/componentDescription"), 1): Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/componentDescription"), "Auto-1 description"): Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Add Product/input_name")): Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-05 13:02:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-05 13:02:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_name"), "BugsUITest"): Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-05 13:02:24 - [MESSAGE][PASSED] - Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-05 13:02:24 - [TEST_STEP][FAILED] - click(findTestObject("Page_BugsUI Add Product/AddProduct_button")): Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more
+)
+
+2019-05-05 13:02:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more
+)
+[[ATTACHMENT|C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190505_130056\\1557041544149.png]]]]></system-out>
+         <system-err><![CDATA[2019-05-05 13:01:48 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddProductFields_verification: Test Cases/Add_Product/AddProductFields_verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/AddedProductAvailability" classname="Test Cases/Add_Product/AddedProductAvailability" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add_Product/AddedProductAvailability FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at AddedProductAvailability.run(AddedProductAvailability:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//span[(text() = 'Raise New Bug' or . = 'Raise New Bug')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1554972140287.run(Script1554972140287.groovy:30)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-05 13:02:24 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddedProductAvailability: Test Cases/Add_Product/AddedProductAvailability FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at AddedProductAvailability.run(AddedProductAvailability:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//span[(text() = 'Raise New Bug' or . = 'Raise New Bug')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1554972140287.run(Script1554972140287.groovy:30)
+	... 13 more
+
+
+2019-05-05 13:02:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:02:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:02:27 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_New Bug"), 0)): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:02:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:02:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is present
+
+2019-05-05 13:02:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_New Bug")): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:02:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:02:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:02:30 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Page_BugsUI New Bug/span_Raise New Bug"), 0): Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at AddedProductAvailability.run(AddedProductAvailability:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//span[(text() = 'Raise New Bug' or . = 'Raise New Bug')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1554972140287.run(Script1554972140287.groovy:30)
+	... 13 more
+)
+
+2019-05-05 13:02:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:02:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-05-05 13:02:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at AddedProductAvailability.run(AddedProductAvailability:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//span[(text() = 'Raise New Bug' or . = 'Raise New Bug')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1554972140287.run(Script1554972140287.groovy:30)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2019-05-05 13:02:24 - [TEST_CASE][FAILED] - Test Cases/Add_Product/AddedProductAvailability: Test Cases/Add_Product/AddedProductAvailability FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at AddedProductAvailability.run(AddedProductAvailability:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//span[(text() = 'Raise New Bug' or . = 'Raise New Bug')]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1554972140287.run(Script1554972140287.groovy:30)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/Delete_added_product" classname="Test Cases/Add_Product/Delete_added_product" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Add_Product/Delete_added_product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Delete_added_product.run(Delete_added_product:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//button[@id=&quot;bugzillaLinks&quot;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1555916465478.run(Script1555916465478.groovy:24)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-05-05 13:02:31 - [TEST_CASE][FAILED] - Test Cases/Add_Product/Delete_added_product: Test Cases/Add_Product/Delete_added_product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Delete_added_product.run(Delete_added_product:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//button[@id="bugzillaLinks"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1555916465478.run(Script1555916465478.groovy:24)
+	... 13 more
+
+
+2019-05-05 13:02:32 - [TEST_STEP][FAILED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Delete_added_product.run(Delete_added_product:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//button[@id="bugzillaLinks"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1555916465478.run(Script1555916465478.groovy:24)
+	... 13 more
+)
+
+2019-05-05 13:02:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-05-05 13:02:32 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Delete_added_product.run(Delete_added_product:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//button[@id="bugzillaLinks"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1555916465478.run(Script1555916465478.groovy:24)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2019-05-05 13:02:31 - [TEST_CASE][FAILED] - Test Cases/Add_Product/Delete_added_product: Test Cases/Add_Product/Delete_added_product FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Delete_added_product.run(Delete_added_product:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : WARNING: You have unsaved changes. Press Cancel to go back and save these changes, or OK to lose these changes.}
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds: null
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+*** Element info: {Using=xpath, value=//button[@id="bugzillaLinks"]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:172)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:476)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:358)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:761)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1093)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$2.call(Unknown Source)
+	at Script1555916465478.run(Script1555916465478.groovy:24)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/Edit_product_fields" classname="Test Cases/Edit_Product/Edit_product_fields" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:02:32 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/Edit_product_fields: Test Cases/Edit_Product/Edit_product_fields
+
+2019-05-05 13:02:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 13:02:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-05 13:02:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 13:02:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 13:02:34 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:02:47 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:02:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:02:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:02:50 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login(): reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:02:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-05 13:02:50 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-05 13:02:50 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-05 13:02:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-05 13:02:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:02:51 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:02:51 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-05-05 13:02:57 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-05 13:02:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-05 13:02:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-05 13:02:57 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): null
+
+2019-05-05 13:02:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-05 13:02:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/button_Product")): Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-05 13:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-05 13:02:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:02:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:02:59 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_Edit"), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-05 13:02:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Edit' is present
+
+2019-05-05 13:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_Edit")): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-05 13:02:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-05 13:02:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Edit Product"), 0): Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-05 13:02:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-05 13:03:01 - [TEST_STEP][PASSED] - reusable.editPage.selectProduct(): reusable.editPage.selectProduct is PASSED
+
+2019-05-05 13:03:01 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-05 13:03:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-05 13:03:04 - [MESSAGE][PASSED] - Text '1-Auto-edit' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-05 13:03:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Auto-edit' is clicked on
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - reusable.editPage.selectProduct is PASSED
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/input_newName"), 0): Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/textarea_description"), 0): Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_closed_for_bug_entry"), 0): Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): null
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is NOT clickable
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 1): Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Component Information"), 0): Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Refresh components"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_Component"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Version Information"), 0): Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Refresh versions"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_version"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-05 13:03:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-05 13:03:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/verify_values_prepopulated" classname="Test Cases/Edit_Product/verify_values_prepopulated" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:03:10 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/verify_values_prepopulated: Test Cases/Edit_Product/verify_values_prepopulated
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/input_newName"), 1): Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - productName = getAttribute(findTestObject("Page_BugsUI Edit Product/input_newName"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/input_newName' is: '1-Auto-edit'
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/input_newName' is: '1-Auto-edit'
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - productDescription = getAttribute(findTestObject("Page_BugsUI Edit Product/textarea_description"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Product for Automation'
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Product for Automation'
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - if (productName.equals("1-Auto-edit")): null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - if (!(productDescription.isEmpty())): null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Page_BugsUI Edit Product/unknown_Component")): Object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is NOT clickable
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is NOT clickable
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - unkownComponentName = getAttribute(findTestObject("Page_BugsUI Edit Product/unknown_Component"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - if (unkownComponentName.equals("Unknown")): null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - unkownComponentDesc = getAttribute(findTestObject("Page_BugsUI Edit Product/unkown_description"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is: 'unknown'
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is: 'unknown'
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - unkownComponentDefaultAsignee = getAttribute(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is: 'kumar.nagendra@happiestminds.com'
+
+2019-05-05 13:03:10 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is: 'kumar.nagendra@happiestminds.com'
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - if (!(unkownComponentDesc.isEmpty()) && !(unkownComponentDefaultAsignee.isEmpty())): null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:12 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/default_UnknownComponent" classname="Test Cases/Edit_Product/default_UnknownComponent" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:03:12 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/default_UnknownComponent: Test Cases/Edit_Product/default_UnknownComponent
+
+2019-05-05 13:03:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/delete_icon_unknownCompnent"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is present
+
+2019-05-05 13:03:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/delete_icon_unknownCompnent")): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/confirmDeleteProduct_popup"), 0)): null
+
+2019-05-05 13:03:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-05 13:03:15 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_component_Yes"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-05 13:03:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is present
+
+2019-05-05 13:03:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_component_Yes")): Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-05 13:03:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-05 13:03:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:17 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Product_atleast_1_component"), 0)): null
+
+2019-05-05 13:03:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is present
+
+2019-05-05 13:03:17 - [TEST_STEP][PASSED] - warningMessage = getText(findTestObject("Page_BugsUI Edit Product/div_Product_atleast_1_component")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is: 'Product must have at least 1 component.'
+
+2019-05-05 13:03:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product_atleast_1_component' is: 'Product must have at least 1 component.'
+
+2019-05-05 13:03:17 - [TEST_STEP][PASSED] - if (warningMessage.equals("Product must have at least 1 component.")): null
+
+2019-05-05 13:03:17 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/update_icon_unknownComponent"), 0)): null
+
+2019-05-05 13:03:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is present
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/update_icon_unknownComponent")): Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Nothing to update"), 0)): null
+
+2019-05-05 13:03:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is present
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - nothingToUpdate = getText(findTestObject("Page_BugsUI Edit Product/div_Nothing to update")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Nothing to update' is: 'Nothing to update.'
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - if (nothingToUpdate.equals("Nothing to update.")): null
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/unkown_description")): Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/unkown_description"), "unknown1234"): Text 'unknown1234' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Text 'unknown1234' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee")): Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-05 13:03:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-05 13:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee"), "divya.r@happiestminds.com"): Text 'divya.r@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-05 13:03:21 - [MESSAGE][PASSED] - Text 'divya.r@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/update_icon_unknownComponent")): Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-05 13:03:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Component has been updated"), 0)): null
+
+2019-05-05 13:03:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is present
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - componentUpdatedMsg = getText(findTestObject("Page_BugsUI Edit Product/div_Component has been updated")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is: 'Component has been updated successfully.'
+
+2019-05-05 13:03:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component has been updated' is: 'Component has been updated successfully.'
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - if (componentUpdatedMsg.equals("Component has been updated successfully.")): null
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:21 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-05 13:03:25 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-05 13:03:25 - [TEST_STEP][PASSED] - reusable.editPage.resetUnkownComponent(): reusable.editPage.resetUnkownComponent is PASSED
+
+2019-05-05 13:03:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_description' is cleared
+
+2019-05-05 13:03:25 - [MESSAGE][PASSED] - Text 'unknown' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-05 13:03:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee' is cleared
+
+2019-05-05 13:03:26 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-05 13:03:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/update_icon_unknownComponent' is clicked on
+
+2019-05-05 13:03:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:28 - [MESSAGE][PASSED] - reusable.editPage.resetUnkownComponent is PASSED
+
+2019-05-05 13:03:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/component_section" classname="Test Cases/Edit_Product/component_section" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:03:31 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/component_section: Test Cases/Edit_Product/component_section
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_Component"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-05 13:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_Component")): Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is clicked on
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/unkown_description"), "C1 description"): Text 'C1 description' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Text 'C1 description' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_description'
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Add_component"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is present
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_Add_component")): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:31 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Name_Email_required"), 0)): null
+
+2019-05-05 13:03:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is present
+
+2019-05-05 13:03:32 - [TEST_STEP][PASSED] - componentNameEmailReqMsg = getText(findTestObject("Page_BugsUI Edit Product/div_Name_Email_required")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is: 'Name is required, Email is required'
+
+2019-05-05 13:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Name_Email_required' is: 'Name is required, Email is required'
+
+2019-05-05 13:03:32 - [TEST_STEP][PASSED] - if (componentNameEmailReqMsg.equals("Name is required, Email is required")): null
+
+2019-05-05 13:03:32 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/unknown_Component"), "C1"): Text 'C1' is set on object 'Object Repository/Page_BugsUI Edit Product/unknown_Component'
+
+2019-05-05 13:03:34 - [MESSAGE][PASSED] - Text 'C1' is set on object 'Object Repository/Page_BugsUI Edit Product/unknown_Component'
+
+2019-05-05 13:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee"), "kumar.nagendra@happiestminds.com"): Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-05 13:03:34 - [MESSAGE][PASSED] - Text 'kumar.nagendra@happiestminds.com' is set on object 'Object Repository/Page_BugsUI Edit Product/unkown_defaultAssignee'
+
+2019-05-05 13:03:34 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Add_component"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:34 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is present
+
+2019-05-05 13:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_Add_component")): Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Add_component' is clicked on
+
+2019-05-05 13:03:34 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Component_added"), 0)): null
+
+2019-05-05 13:03:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is present
+
+2019-05-05 13:03:36 - [TEST_STEP][PASSED] - componentAddedSuccessMsg = getText(findTestObject("Page_BugsUI Edit Product/div_Component_added")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is: 'Component has been added successfully.'
+
+2019-05-05 13:03:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_added' is: 'Component has been added successfully.'
+
+2019-05-05 13:03:36 - [TEST_STEP][PASSED] - if (componentAddedSuccessMsg.equals("Component has been added successfully.")): null
+
+2019-05-05 13:03:36 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:03:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:03:39 - [TEST_STEP][PASSED] - compName = getAttribute(findTestObject("Page_BugsUI Edit Product/unknown_Component"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'C1'
+
+2019-05-05 13:03:39 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'C1'
+
+2019-05-05 13:03:39 - [TEST_STEP][PASSED] - if (compName.equals("C1")): null
+
+2019-05-05 13:03:39 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:03:42 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/delete_icon_unknownCompnent"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is present
+
+2019-05-05 13:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/delete_icon_unknownCompnent")): Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/delete_icon_unknownCompnent' is clicked on
+
+2019-05-05 13:03:42 - [TEST_STEP][PASSED] - reusable.editPage.deleteComponent(): reusable.editPage.deleteComponent is PASSED
+
+2019-05-05 13:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-05 13:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is present
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_component_Yes' is clicked on
+
+2019-05-05 13:03:42 - [MESSAGE][PASSED] - reusable.editPage.deleteComponent is PASSED
+
+2019-05-05 13:03:42 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Component_deleted"), 0)): null
+
+2019-05-05 13:03:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:03:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is present
+
+2019-05-05 13:03:43 - [TEST_STEP][PASSED] - componentDeletedSuccessMsg = getText(findTestObject("Page_BugsUI Edit Product/div_Component_deleted")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is: 'Component has been deleted successfully.'
+
+2019-05-05 13:03:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Component_deleted' is: 'Component has been deleted successfully.'
+
+2019-05-05 13:03:43 - [TEST_STEP][PASSED] - if (componentDeletedSuccessMsg.equals("Component has been deleted successfully.")): null
+
+2019-05-05 13:03:43 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:45 - [TEST_STEP][PASSED] - if (!(getAttribute(findTestObject("Page_BugsUI Edit Product/unknown_Component"), "value").equals("C1"))): null
+
+2019-05-05 13:03:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/unknown_Component' is: 'Unknown'
+
+2019-05-05 13:03:45 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:03:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:03:48 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/closedForBugEntery_UpdateProduct" classname="Test Cases/Edit_Product/closedForBugEntery_UpdateProduct" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:03:48 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/closedForBugEntery_UpdateProduct: Test Cases/Edit_Product/closedForBugEntery_UpdateProduct
+
+2019-05-05 13:03:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/input_newName"), 2): Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-05 13:03:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-05 13:03:48 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/textarea_description")): Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-05 13:03:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-05 13:03:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/textarea_description"), "Editing Description"): Text 'Editing Description' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-05 13:03:49 - [MESSAGE][PASSED] - Text 'Editing Description' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-05 13:03:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:51 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:03:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clickable
+
+2019-05-05 13:03:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_update_product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:03:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:03:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:03:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:53 - [TEST_STEP][PASSED] - reusable.editPage.selectProduct(): reusable.editPage.selectProduct is PASSED
+
+2019-05-05 13:03:53 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-05 13:03:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-05 13:03:56 - [MESSAGE][PASSED] - Text '1-Auto-edit' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-05 13:03:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Auto-edit' is clicked on
+
+2019-05-05 13:04:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:00 - [MESSAGE][PASSED] - reusable.editPage.selectProduct is PASSED
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - productDesc = getAttribute(findTestObject("Page_BugsUI Edit Product/textarea_description"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Editing Description'
+
+2019-05-05 13:04:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Editing Description'
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - if (productDesc.equals("Editing Description")): null
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/textarea_description")): Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-05 13:04:00 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/textarea_description"), "Product for Automation"): Text 'Product for Automation' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-05 13:04:00 - [MESSAGE][PASSED] - Text 'Product for Automation' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-05 13:04:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:04:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:02 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:04:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clickable
+
+2019-05-05 13:04:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_update_product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-05 13:04:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:04:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-05 13:04:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation/Creating_bug" classname="Test Cases/NewBugCreation/Creating_bug" status="PASSED">
+         <system-out><![CDATA[2019-05-05 13:04:05 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation/Creating_bug: Test Cases/NewBugCreation/Creating_bug
+
+2019-05-05 13:04:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-05 13:04:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-05 13:04:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-05 13:04:07 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:04:20 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-05 13:04:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:04:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:04:23 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login(): reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:04:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-05 13:04:23 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-05 13:04:24 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-05 13:04:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-05 13:04:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-05 13:04:24 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-05 13:04:24 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-05 13:04:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-05 13:04:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-05 13:04:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:04:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-05 13:04:28 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_New Bug"), 3)): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:04:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is present
+
+2019-05-05 13:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_New Bug")): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-05 13:04:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:04:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:04:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI New Bug/span_Raise New Bug"), 0): Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-05 13:04:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:04:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-05 13:04:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Classification"), "Software"): Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-05 13:04:33 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-05 13:04:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:04:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_Software")): Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-05 13:04:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-05 13:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Package"), "BugsUITest"): Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-05 13:04:35 - [MESSAGE][PASSED] - Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-05 13:04:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:04:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_BugsUITest")): Object: 'Object Repository/Page_BugsUI New Bug/span_BugsUITest' is clicked on
+
+2019-05-05 13:04:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_BugsUITest' is clicked on
+
+2019-05-05 13:04:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose PackageVersion"), "main12"): Text 'main12' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose PackageVersion'
+
+2019-05-05 13:04:38 - [MESSAGE][PASSED] - Text 'main12' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose PackageVersion'
+
+2019-05-05 13:04:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:04:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:04:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_main12_pckgVrsion")): Object: 'Object Repository/Page_BugsUI New Bug/span_main12_pckgVrsion' is clicked on
+
+2019-05-05 13:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_main12_pckgVrsion' is clicked on
+
+2019-05-05 13:04:41 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/input_summary"), "Test automation bug"): Text 'Test automation bug' is set on object 'Object Repository/Page_BugsUI New Bug/input_summary'
+
+2019-05-05 13:04:41 - [MESSAGE][PASSED] - Text 'Test automation bug' is set on object 'Object Repository/Page_BugsUI New Bug/input_summary'
+
+2019-05-05 13:04:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-05 13:04:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-05 13:04:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/textarea_description"), "This bug is created for automation purpose"): Text 'This bug is created for automation purpose' is set on object 'Object Repository/Page_BugsUI New Bug/textarea_description'
+
+2019-05-05 13:04:44 - [MESSAGE][PASSED] - Text 'This bug is created for automation purpose' is set on object 'Object Repository/Page_BugsUI New Bug/textarea_description'
+
+2019-05-05 13:04:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI New Bug/button_Raise New Bug"), 1): Scroll to object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' successfully
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' successfully
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Page_BugsUI New Bug/input_reporter")): Object 'Object Repository/Page_BugsUI New Bug/input_reporter' is NOT clickable
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/input_reporter' is NOT clickable
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - defaultReporterName = getAttribute(findTestObject("Page_BugsUI New Bug/input_reporter"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI New Bug/input_reporter' is: 'kumar Nagendra1 (kumar.nagendra@happiestminds.com)'
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI New Bug/input_reporter' is: 'kumar Nagendra1 (kumar.nagendra@happiestminds.com)'
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - if (defaultReporterName.equals("kumar Nagendra1 (kumar.nagendra@happiestminds.com)")): null
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI New Bug/button_Raise New Bug"), 0)): Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-05 13:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is present
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/button_Raise New Bug")): Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-05 13:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-05 13:04:47 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-05 13:04:51 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-05 13:00:59 - [TEST_SUITE][FAILED] - SmokeSuite: Test Cases/Add_Product/AddProductFields_verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-05-05 13:00:59 - [TEST_SUITE][FAILED] - SmokeSuite: Test Cases/Add_Product/AddProductFields_verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_BugsUI Add Product/AddProduct_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at AddProductFields_verification.run(AddProductFields_verification:148)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557041456639.run(TempTestSuite1557041456639.groovy:35)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-c10="" class="btn btn-sm btn-primary" type="button">...</button> is not clickable at point (336, 635). Other element would receive the click: <a _ngcontent-c2="" href="/search?status=ASSIGNED,NEW,REOPENED,RESOLVED,CLOSED&amp;reporter=kumar.nagendra@happiestminds.com">...</a>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'HMECL001948', ip: '10.95.75.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53660}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.131, webStorageEnabled: true}
+Session ID: 6762df737c8466edf2756f9461665688
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$8.call(Unknown Source)
+	at Script1554972061486.run(Script1554972061486.groovy:148)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

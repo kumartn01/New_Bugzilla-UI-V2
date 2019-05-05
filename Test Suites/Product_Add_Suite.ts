@@ -4,7 +4,6 @@
    <name>Product_Add_Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-03T12:18:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

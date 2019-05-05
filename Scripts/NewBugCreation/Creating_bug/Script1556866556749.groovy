@@ -90,11 +90,22 @@ if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI New Bug/button_Raise N
 	WebUI.click(findTestObject("Page_BugsUI New Bug/button_Raise New Bug"))
 }
 
-WebUI.delay(4)
+WebUI.delay(2)
 
+/*if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI New Bug/div_Sucessfully_created_newbug"), 0)){
+	
+	bugCreationSuccessMsg = WebUI.getText(findTestObject("Page_BugsUI New Bug/div_Sucessfully_created_newbug"))
+	
+	if(bugCreationSuccessMsg.contains("Sucessfully created new Bug #")){
+		
+		assert true
+	}
+	else{
+		assert false
+	}
+}*/
 
-
-
+WebUI.closeBrowser()
 
 
 

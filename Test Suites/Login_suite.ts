@@ -4,7 +4,6 @@
    <name>Login_suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-03T12:28:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

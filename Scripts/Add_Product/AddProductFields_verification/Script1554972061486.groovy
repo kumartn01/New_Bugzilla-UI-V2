@@ -28,7 +28,18 @@ WebUI.navigateToUrl(GlobalVariable.applicationUrl)
 
 WebUI.delay(3)
 
-CustomKeywords.'reusable.loginBugZillaUI.login'()
+WebUI.maximizeWindow()
+
+WebUI.delay(2)
+		
+WebUI.setText(findTestObject('Page_BugsUI/input_username'), 'knagendra-ext')
+
+WebUI.setText(findTestObject('Page_BugsUI/input_password'), 'Kum1!@#$%^&*()ar')
+
+if(WebUI.verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))){
+	
+	WebUI.click(findTestObject('Page_BugsUI/button_Login'))
+}
 
 WebUI.delay(6)
 
@@ -48,6 +59,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/span_Dashboa
 }
 
 WebUI.delay(3)
+
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/span_Add Product'), 0)){
 	
 	assert true
@@ -73,6 +85,9 @@ WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/input_compone
 WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Choose Assignee'), 1)
 
 //Verify if Add product button is disabled when none of the mandatory values are entered
+WebUI.scrollToElement(findTestObject('Page_BugsUI Add Product/AddProduct_button'), 0)
+
+WebUI.delay(1)
 
 if(WebUI.verifyElementNotClickable(findTestObject('Page_BugsUI Add Product/AddProduct_button'))){
 	assert true
@@ -82,6 +97,10 @@ else{
 }
 
 //Insert all the mandatory fields
+
+WebUI.scrollToElement(findTestObject('Page_BugsUI Add Product/div_Choose Classification'), 0)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_BugsUI Add Product/div_Choose Classification'))
 
@@ -94,6 +113,10 @@ WebUI.setText(findTestObject('Page_BugsUI Add Product/input_name'), "1-Automatio
 WebUI.setText(findTestObject('Page_BugsUI Add Product/textarea_description'), "1-Automation-testing Description")
 
 WebUI.setText(findTestObject('Page_BugsUI Add Product/input_version'), "1")
+
+WebUI.scrollToElement(findTestObject('Page_BugsUI Add Product/AddProduct_button'), 0)
+
+WebUI.delay(1)
 
 if(WebUI.verifyElementNotClickable(findTestObject('Page_BugsUI Add Product/AddProduct_button'))){
 	assert true
@@ -132,6 +155,10 @@ else{
 
 WebUI.setText(findTestObject('Page_BugsUI Add Product/componentDescription'), "Auto-1 description")
 
+WebUI.scrollToElement(findTestObject('Page_BugsUI Add Product/AddProduct_button'), 1)
+
+WebUI.delay(2)
+
 if(WebUI.verifyElementClickable(findTestObject('Page_BugsUI Add Product/AddProduct_button'))){
 	assert true
 }
@@ -147,7 +174,7 @@ WebUI.setText(findTestObject('Page_BugsUI Add Product/input_name'), "BugsUITest"
 
 WebUI.click(findTestObject('Page_BugsUI Add Product/AddProduct_button'))
 
-WebUI.delay(4)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product BugsUITest already'), 1)
 
@@ -169,7 +196,7 @@ WebUI.click(findTestObject('Page_BugsUI Add Product/AddProduct_button'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 4)
+WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/div_Product_added_success'), 3)
 
 String successMsg = WebUI.getText(findTestObject('Page_BugsUI Add Product/div_Product_added_success'))
 
@@ -181,7 +208,7 @@ else{
 	assert false
 }
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 
 

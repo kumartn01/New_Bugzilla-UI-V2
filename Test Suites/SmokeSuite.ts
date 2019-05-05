@@ -47,24 +47,6 @@
       <testCaseId>Test Cases/Edit_Product/Edit_product_fields</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d414211-5793-4581-895b-fe0c0603c6d0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit_Product/verify_values_prepopulated</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>24ba1eee-a6f7-42f0-a814-31af2e8fb9b9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit_Product/default_UnknownComponent</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>235f48fe-7d0d-4218-8860-b540eff535dc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Edit_Product/component_section</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1c7c73ba-bfd8-45c6-ad98-7e612cde66de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

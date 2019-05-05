@@ -22,11 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://us142.sjc.aristanetworks.com:3000/login?returnUrl=%2F')
+WebUI.navigateToUrl(GlobalVariable.applicationUrl)
 
-WebUI.delay(5)
+WebUI.delay(4)
 
 WebUI.maximizeWindow()
+
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject("Page_BugsUI/input_username"), 0)
 

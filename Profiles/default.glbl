@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://le-bugsui.staging.corp.arista.io/dashboard'</initValue>
+      <name>applicationUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'knagendra-ext'</initValue>
+      <name>login_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kum1!@#$%^&amp;*()ar'</initValue>
+      <name>login_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
