@@ -58,4 +58,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/NewBugCreation/Creating_bug</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ec6f3358-0218-456a-8f59-6cf77f7b9d93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BugPage/verify_commit_for_bugPage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>55cea82e-a0b0-49bc-a2f9-e9dd8fdf9773</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BugPage/verify_addingComments</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

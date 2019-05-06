@@ -1,0 +1,243 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SmokeSuite,Chrome 74.0.3729.131,,,2019-05-06 16:01:33,2019-05-06 16:07:12,5m - 38.942s,PASSED
+,,,,,,,
+Test Cases/Login/Bugzilla-LoginPage-Loads,Chrome 74.0.3729.131,,,2019-05-06 16:01:34,2019-05-06 16:02:01,26.989s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:01:34,2019-05-06 16:01:38,4.147s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:01:38,2019-05-06 16:01:53,14.897s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:01:53,2019-05-06 16:01:57,4.042s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,,2019-05-06 16:01:57,2019-05-06 16:01:57,0.165s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:01:57,2019-05-06 16:01:59,2.002s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/input_username""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:01:59,2019-05-06 16:01:59,0.079s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/input_password""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:01:59,2019-05-06 16:01:59,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/checkbox_RememberMe""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:01:59,2019-05-06 16:02:00,0.052s,PASSED
+"if (getText(findTestObject(""Page_BugsUI/label_rememberMe"")).equals(""Remember me""))",Chrome 74.0.3729.131,,,2019-05-06 16:02:00,2019-05-06 16:02:00,0.084s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI/button_Login"")))",Chrome 74.0.3729.131,,,2019-05-06 16:02:00,2019-05-06 16:02:00,0.075s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:02:00,2019-05-06 16:02:01,0.869s,PASSED
+,,,,,,,
+Test Cases/Login/Valid_Login,Chrome 74.0.3729.131,,,2019-05-06 16:02:01,2019-05-06 16:02:27,26.515s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:02:01,2019-05-06 16:02:03,1.920s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:02:03,2019-05-06 16:02:15,12.677s,PASSED
+delay(5),Chrome 74.0.3729.131,,,2019-05-06 16:02:15,2019-05-06 16:02:20,5.008s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,,2019-05-06 16:02:20,2019-05-06 16:02:21,0.178s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:02:21,2019-05-06 16:02:23,2.010s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_username""), ""knagendra-ext"")",Chrome 74.0.3729.131,,,2019-05-06 16:02:23,2019-05-06 16:02:23,0.243s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_password""), ""Kum1!@#$%^&*()ar"")",Chrome 74.0.3729.131,,,2019-05-06 16:02:23,2019-05-06 16:02:23,0.181s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI/button_Login"")))",Chrome 74.0.3729.131,,,2019-05-06 16:02:23,2019-05-06 16:02:23,0.176s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:02:23,2019-05-06 16:02:26,3.008s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:02:26,2019-05-06 16:02:26,0.054s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:02:26,2019-05-06 16:02:27,0.821s,PASSED
+,,,,,,,
+Test Cases/Add_Product/AddProductFields_verification,Chrome 74.0.3729.131,,,2019-05-06 16:02:27,2019-05-06 16:03:19,52.236s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:02:27,2019-05-06 16:02:29,1.576s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:02:29,2019-05-06 16:02:44,14.531s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:02:44,2019-05-06 16:02:47,3.005s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,,2019-05-06 16:02:47,2019-05-06 16:02:47,0.187s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:02:47,2019-05-06 16:02:49,2.004s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_username""), ""knagendra-ext"")",Chrome 74.0.3729.131,,,2019-05-06 16:02:49,2019-05-06 16:02:49,0.238s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_password""), ""Kum1!@#$%^&*()ar"")",Chrome 74.0.3729.131,,,2019-05-06 16:02:49,2019-05-06 16:02:49,0.176s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI/button_Login"")))",Chrome 74.0.3729.131,,,2019-05-06 16:02:49,2019-05-06 16:02:49,0.129s,PASSED
+delay(6),Chrome 74.0.3729.131,,,2019-05-06 16:02:49,2019-05-06 16:02:55,6.008s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:02:55,2019-05-06 16:02:58,2.416s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:02:58,2019-05-06 16:03:01,3.006s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Add Product/span_Add Product""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.070s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.039s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_name""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/textarea_description""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.052s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/checkbox_closedForBugEntry""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_version""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.050s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_component""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.040s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Choose Assignee""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.042s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:01,0.052s,PASSED
+delay(1),Chrome 74.0.3729.131,,,2019-05-06 16:03:01,2019-05-06 16:03:02,1.003s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Chrome 74.0.3729.131,,,2019-05-06 16:03:02,2019-05-06 16:03:02,0.067s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:03:02,2019-05-06 16:03:02,0.024s,PASSED
+delay(1),Chrome 74.0.3729.131,,,2019-05-06 16:03:02,2019-05-06 16:03:03,1.004s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:03,2019-05-06 16:03:03,0.171s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:03,2019-05-06 16:03:05,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/span_Software""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:05,2019-05-06 16:03:06,0.157s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""1-Automation-testing"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:06,2019-05-06 16:03:06,0.266s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/textarea_description""), ""1-Automation-testing Description"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:06,2019-05-06 16:03:06,0.328s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_version""), ""1"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:06,2019-05-06 16:03:06,0.087s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:03:06,2019-05-06 16:03:06,0.028s,PASSED
+delay(1),Chrome 74.0.3729.131,,,2019-05-06 16:03:06,2019-05-06 16:03:07,1.004s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Chrome 74.0.3729.131,,,2019-05-06 16:03:07,2019-05-06 16:03:07,0.072s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/defaultAssigne_inputbox""), ""kumar nagendra"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:07,2019-05-06 16:03:08,0.322s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/span_kumar.nagendra""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:08,2019-05-06 16:03:08,0.721s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:08,2019-05-06 16:03:10,2.005s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Chrome 74.0.3729.131,,,2019-05-06 16:03:10,2019-05-06 16:03:10,0.073s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_component""), ""Auto-1"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:10,2019-05-06 16:03:11,0.174s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/componentDescription""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:11,2019-05-06 16:03:11,0.036s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Chrome 74.0.3729.131,,,2019-05-06 16:03:11,2019-05-06 16:03:11,0.041s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/componentDescription""), ""Auto-1 description"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:11,2019-05-06 16:03:11,0.319s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:11,2019-05-06 16:03:11,0.023s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:11,2019-05-06 16:03:13,2.006s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Chrome 74.0.3729.131,,,2019-05-06 16:03:13,2019-05-06 16:03:13,0.088s,PASSED
+"clearText(findTestObject(""Page_BugsUI Add Product/input_name""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:13,2019-05-06 16:03:13,0.060s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""BugsUITest"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:13,2019-05-06 16:03:13,0.264s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/AddProduct_button""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:13,2019-05-06 16:03:14,0.226s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:14,2019-05-06 16:03:16,2.005s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Product BugsUITest already""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.069s,PASSED
+"text = getText(findTestObject(""Page_BugsUI Add Product/div_Product BugsUITest already""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.042s,PASSED
+"if (text.equals(""Product BugsUITest already exists.""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.000s,PASSED
+"clearText(findTestObject(""Page_BugsUI Add Product/input_name""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.063s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""1-Automation-testing"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.262s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/AddProduct_button""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:16,0.068s,PASSED
+delay(1),Chrome 74.0.3729.131,,,2019-05-06 16:03:16,2019-05-06 16:03:17,1.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Product_added_success""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:17,2019-05-06 16:03:17,0.061s,PASSED
+"successMsg = getText(findTestObject(""Page_BugsUI Add Product/div_Product_added_success""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:17,2019-05-06 16:03:17,0.044s,PASSED
+"if (successMsg.equals(""Product has been added successfully.""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:17,2019-05-06 16:03:17,0.000s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:17,2019-05-06 16:03:19,2.002s,PASSED
+,,,,,,,
+Test Cases/Add_Product/AddedProductAvailability,Chrome 74.0.3729.131,,,2019-05-06 16:03:19,2019-05-06 16:03:35,15.726s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:20,2019-05-06 16:03:22,2.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/a_New Bug""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:03:22,2019-05-06 16:03:22,0.181s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:03:22,2019-05-06 16:03:25,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI New Bug/span_Raise New Bug""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:03:25,2019-05-06 16:03:26,0.751s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Classification""), ""Software"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:26,2019-05-06 16:03:26,0.426s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:26,2019-05-06 16:03:28,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI New Bug/span_Software""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:28,2019-05-06 16:03:28,0.158s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:03:28,2019-05-06 16:03:31,3.004s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Package""), ""1-Automation-testing"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:31,2019-05-06 16:03:32,0.636s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/span_1-Automation-testing""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:03:32,2019-05-06 16:03:32,0.160s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:03:32,2019-05-06 16:03:35,3.005s,PASSED
+,,,,,,,
+Test Cases/Add_Product/Delete_added_product,Chrome 74.0.3729.131,,,2019-05-06 16:03:35,2019-05-06 16:04:10,34.523s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/button_Product""), 10))",Chrome 74.0.3729.131,,,2019-05-06 16:03:35,2019-05-06 16:03:38,2.328s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:03:38,2019-05-06 16:03:42,4.002s,PASSED
+if (verifyAlertPresent(7)),Chrome 74.0.3729.131,,,2019-05-06 16:03:42,2019-05-06 16:03:42,0.072s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:03:42,2019-05-06 16:03:46,4.004s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/span_Edit Product""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:03:46,2019-05-06 16:03:46,0.059s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/div_Choose Classification""), ""Software"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:46,2019-05-06 16:03:46,0.292s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:46,2019-05-06 16:03:48,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI Edit Product/span_Software""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:48,2019-05-06 16:03:48,0.166s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/div_Choose Product""), ""1-Automation-testing"")",Chrome 74.0.3729.131,,,2019-05-06 16:03:48,2019-05-06 16:03:49,0.386s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:03:49,2019-05-06 16:03:51,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI Edit Product/span_1-Automation-testing""))",Chrome 74.0.3729.131,,,2019-05-06 16:03:51,2019-05-06 16:03:51,0.189s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:03:51,2019-05-06 16:03:51,0.044s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:03:51,2019-05-06 16:03:56,5.238s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:03:56,2019-05-06 16:03:59,3.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/confirmDeleteProduct_popup""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:03:59,2019-05-06 16:03:59,0.230s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:03:59,2019-05-06 16:04:02,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:02,2019-05-06 16:04:02,0.014s,PASSED
+"click(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""))",Chrome 74.0.3729.131,,,2019-05-06 16:04:02,2019-05-06 16:04:03,0.118s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:04:03,2019-05-06 16:04:06,3.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/confirmDeleteProduct_popup""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:04:06,2019-05-06 16:04:06,0.155s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:04:06,2019-05-06 16:04:09,3.002s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/div_Product has been deleted""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:04:09,2019-05-06 16:04:09,0.112s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:04:09,2019-05-06 16:04:10,0.858s,PASSED
+,,,,,,,
+Test Cases/Edit_Product/Edit_product_fields,Chrome 74.0.3729.131,,,2019-05-06 16:04:10,2019-05-06 16:04:48,37.980s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:04:10,2019-05-06 16:04:12,1.836s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:04:12,2019-05-06 16:04:24,12.560s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:04:24,2019-05-06 16:04:27,3.004s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,,2019-05-06 16:04:27,2019-05-06 16:04:27,0.133s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:04:27,2019-05-06 16:04:29,2.003s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_username""), ""knagendra-ext"")",Chrome 74.0.3729.131,,,2019-05-06 16:04:29,2019-05-06 16:04:30,0.161s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_password""), ""Kum1!@#$%^&*()ar"")",Chrome 74.0.3729.131,,,2019-05-06 16:04:30,2019-05-06 16:04:30,0.214s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI/button_Login"")))",Chrome 74.0.3729.131,,,2019-05-06 16:04:30,2019-05-06 16:04:30,0.163s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:04:30,2019-05-06 16:04:34,4.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:04:34,2019-05-06 16:04:36,2.370s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/span_Edit Product""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:36,2019-05-06 16:04:38,2.064s,PASSED
+reusable.editPage.selectProduct(),Chrome 74.0.3729.131,,,2019-05-06 16:04:38,2019-05-06 16:04:45,6.855s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/input_newName""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/textarea_description""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/div_closed_for_bug_entry""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.031s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Edit Product/button_update_product"")))",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.046s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 2)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.036s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/div_Component Information""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.030s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_Refresh components""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_AddNewRow_Component""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:45,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/span_Version Information""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:45,2019-05-06 16:04:46,0.030s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_Refresh versions""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:46,2019-05-06 16:04:46,0.047s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_AddNewRow_version""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:04:46,2019-05-06 16:04:46,0.039s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:04:46,2019-05-06 16:04:48,2.000s,PASSED
+,,,,,,,
+Test Cases/Edit_Product/closedForBugEntery_UpdateProduct,Chrome 74.0.3729.131,,,2019-05-06 16:04:48,2019-05-06 16:05:05,16.907s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Edit Product/input_newName""), 2)",Chrome 74.0.3729.131,,,2019-05-06 16:04:48,2019-05-06 16:04:48,0.045s,PASSED
+"clearText(findTestObject(""Page_BugsUI Edit Product/textarea_description""))",Chrome 74.0.3729.131,,,2019-05-06 16:04:48,2019-05-06 16:04:48,0.087s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/textarea_description""), ""Editing Description"")",Chrome 74.0.3729.131,,,2019-05-06 16:04:48,2019-05-06 16:04:48,0.282s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:04:48,2019-05-06 16:04:50,2.002s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Edit Product/button_update_product"")))",Chrome 74.0.3729.131,,,2019-05-06 16:04:50,2019-05-06 16:04:50,0.139s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:04:50,2019-05-06 16:04:52,2.003s,PASSED
+reusable.editPage.selectProduct(),Chrome 74.0.3729.131,,,2019-05-06 16:04:52,2019-05-06 16:04:59,6.719s,PASSED
+"productDesc = getAttribute(findTestObject(""Page_BugsUI Edit Product/textarea_description""), ""value"")",Chrome 74.0.3729.131,,,2019-05-06 16:04:59,2019-05-06 16:04:59,0.036s,PASSED
+"if (productDesc.equals(""Editing Description""))",Chrome 74.0.3729.131,,,2019-05-06 16:04:59,2019-05-06 16:04:59,0.000s,PASSED
+"clearText(findTestObject(""Page_BugsUI Edit Product/textarea_description""))",Chrome 74.0.3729.131,,,2019-05-06 16:04:59,2019-05-06 16:04:59,0.087s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/textarea_description""), ""Product for Automation"")",Chrome 74.0.3729.131,,,2019-05-06 16:04:59,2019-05-06 16:05:00,0.309s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:00,2019-05-06 16:05:02,2.002s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Edit Product/button_update_product"")))",Chrome 74.0.3729.131,,,2019-05-06 16:05:02,2019-05-06 16:05:02,0.151s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:02,2019-05-06 16:05:04,2.002s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:05:04,2019-05-06 16:05:05,0.780s,PASSED
+,,,,,,,
+Test Cases/NewBugCreation/Creating_bug,Chrome 74.0.3729.131,,,2019-05-06 16:05:05,2019-05-06 16:05:48,43.390s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:05:05,2019-05-06 16:05:07,1.762s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:05:07,2019-05-06 16:05:19,12.266s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:05:19,2019-05-06 16:05:22,3.004s,PASSED
+reusable.loginBugZillaUI.login(),Chrome 74.0.3729.131,,,2019-05-06 16:05:22,2019-05-06 16:05:22,0.638s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:05:22,2019-05-06 16:05:26,4.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:05:26,2019-05-06 16:05:27,0.254s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:05:27,2019-05-06 16:05:30,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI New Bug/span_Raise New Bug""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:05:30,2019-05-06 16:05:30,0.571s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Classification""), ""Software"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:30,2019-05-06 16:05:31,0.352s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:31,2019-05-06 16:05:33,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI New Bug/span_Software""))",Chrome 74.0.3729.131,,,2019-05-06 16:05:33,2019-05-06 16:05:33,0.198s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Package""), ""BugsUITest"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:33,2019-05-06 16:05:33,0.338s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:33,2019-05-06 16:05:35,2.003s,PASSED
+"click(findTestObject(""Page_BugsUI New Bug/span_BugsUITest""))",Chrome 74.0.3729.131,,,2019-05-06 16:05:35,2019-05-06 16:05:35,0.190s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose PackageVersion""), ""main12"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:35,2019-05-06 16:05:36,0.328s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:05:36,2019-05-06 16:05:39,3.004s,PASSED
+"click(findTestObject(""Page_BugsUI New Bug/span_main12_pckgVrsion""))",Chrome 74.0.3729.131,,,2019-05-06 16:05:39,2019-05-06 16:05:39,0.171s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/input_summary""), ""Test automation bug"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:39,2019-05-06 16:05:39,0.346s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:39,2019-05-06 16:05:41,2.003s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/textarea_description""), ""This bug is created for automation purpose"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:41,2019-05-06 16:05:42,0.563s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:05:42,2019-05-06 16:05:45,3.003s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI New Bug/button_Raise New Bug""), 1)",Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:45,0.091s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_BugsUI New Bug/input_reporter""))",Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:45,0.049s,PASSED
+"defaultReporterName = getAttribute(findTestObject(""Page_BugsUI New Bug/input_reporter""), ""value"")",Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:45,0.039s,PASSED
+"if (defaultReporterName.equals(""kumar Nagendra1 (kumar.nagendra@happiestminds.com)""))",Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:45,0.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/button_Raise New Bug""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:45,0.137s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:05:45,2019-05-06 16:05:47,2.005s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:05:47,2019-05-06 16:05:48,0.827s,PASSED
+,,,,,,,
+Test Cases/BugPage/verify_commit_for_bugPage,Chrome 74.0.3729.131,,,2019-05-06 16:05:48,2019-05-06 16:06:52,1m - 4.022s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 16:05:48,2019-05-06 16:05:50,1.731s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 16:05:50,2019-05-06 16:06:04,14.255s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:04,2019-05-06 16:06:07,3.004s,PASSED
+reusable.loginBugZillaUI.login(),Chrome 74.0.3729.131,,,2019-05-06 16:06:07,2019-05-06 16:06:08,0.640s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 16:06:08,2019-05-06 16:06:12,4.004s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:06:12,2019-05-06 16:06:12,0.066s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/input_Edit_search""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:06:12,2019-05-06 16:06:13,1.400s,PASSED
+delay(20),Chrome 74.0.3729.131,,,2019-05-06 16:06:13,2019-05-06 16:06:33,20.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/label_Bug 255666""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:06:33,2019-05-06 16:06:33,0.072s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI New Bug/bugInfo_accordion""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:06:33,2019-05-06 16:06:33,0.057s,PASSED
+"isBugInfoAccordionExpanded = getAttribute(findTestObject(""Page_BugsUI New Bug/bugInfo_accordion""), ""aria-expanded"")",Chrome 74.0.3729.131,,,2019-05-06 16:06:33,2019-05-06 16:06:34,0.061s,PASSED
+"if (isBugInfoAccordionExpanded.equals(""false""))",Chrome 74.0.3729.131,,,2019-05-06 16:06:34,2019-05-06 16:06:37,3.753s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:06:37,2019-05-06 16:06:39,2.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/div_Bugdetails_updated_success""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:06:39,2019-05-06 16:06:39,0.108s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:39,2019-05-06 16:06:42,3.005s,PASSED
+"aliasName = getAttribute(findTestObject(""Page_BugsUI New Bug/input_BugAlias""), ""value"")",Chrome 74.0.3729.131,,,2019-05-06 16:06:42,2019-05-06 16:06:42,0.066s,PASSED
+"if (aliasName.equals(""123Test""))",Chrome 74.0.3729.131,,,2019-05-06 16:06:42,2019-05-06 16:06:42,0.016s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:42,2019-05-06 16:06:45,3.002s,PASSED
+"clearText(findTestObject(""Page_BugsUI New Bug/input_BugAlias""))",Chrome 74.0.3729.131,,,2019-05-06 16:06:45,2019-05-06 16:06:46,0.125s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/input_BugAlias""), ""test987"")",Chrome 74.0.3729.131,,,2019-05-06 16:06:46,2019-05-06 16:06:46,0.175s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:46,2019-05-06 16:06:49,3.002s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI New Bug/topButton_Commit"")))",Chrome 74.0.3729.131,,,2019-05-06 16:06:49,2019-05-06 16:06:49,0.150s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:49,2019-05-06 16:06:52,3.003s,PASSED
+,,,,,,,
+Test Cases/BugPage/verify_addingComments,Chrome 74.0.3729.131,,,2019-05-06 16:06:52,2019-05-06 16:07:12,20.159s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:06:52,2019-05-06 16:06:54,2.002s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI New Bug/select_commentOrder_dropdown""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:06:54,2019-05-06 16:06:54,0.048s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:06:54,2019-05-06 16:06:56,2.005s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/textarea_Add Comment""), ""Testing comment for Automation"")",Chrome 74.0.3729.131,,,2019-05-06 16:06:56,2019-05-06 16:06:57,0.446s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:06:57,2019-05-06 16:07:00,3.001s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI New Bug/bottom_button_Commit"")))",Chrome 74.0.3729.131,,,2019-05-06 16:07:00,2019-05-06 16:07:00,0.178s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:07:00,2019-05-06 16:07:02,2.004s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/div_Bugdetails_updated_success""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:07:02,2019-05-06 16:07:02,0.098s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:07:02,2019-05-06 16:07:04,2.001s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI New Bug/logs_accordion""), 0)",Chrome 74.0.3729.131,,,2019-05-06 16:07:04,2019-05-06 16:07:04,0.040s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:07:04,2019-05-06 16:07:06,2.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/select_commentOrder_dropdown""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:07:06,2019-05-06 16:07:06,0.201s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 16:07:06,2019-05-06 16:07:09,3.001s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/latestComment""), 0))",Chrome 74.0.3729.131,,,2019-05-06 16:07:09,2019-05-06 16:07:09,0.077s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 16:07:09,2019-05-06 16:07:11,2.001s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,,2019-05-06 16:07:11,2019-05-06 16:07:12,0.799s,PASSED

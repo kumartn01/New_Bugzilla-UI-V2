@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+BugPageGeneralTab,Chrome 74.0.3729.131,,,2019-05-06 15:18:10,2019-05-06 15:19:26,1m - 16.547s,FAILED
+,,,,,,,
+Test Cases/BugPage/verify_commit_for_bugPage,Chrome 74.0.3729.131,,,2019-05-06 15:18:10,2019-05-06 15:19:17,1m - 6.669s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,,2019-05-06 15:18:11,2019-05-06 15:18:14,3.610s,PASSED
+navigateToUrl(applicationUrl),Chrome 74.0.3729.131,,,2019-05-06 15:18:14,2019-05-06 15:18:29,14.467s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:18:29,2019-05-06 15:18:32,3.039s,PASSED
+reusable.loginBugZillaUI.login(),Chrome 74.0.3729.131,,,2019-05-06 15:18:32,2019-05-06 15:18:33,0.735s,PASSED
+delay(4),Chrome 74.0.3729.131,,,2019-05-06 15:18:33,2019-05-06 15:18:37,4.004s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0)",Chrome 74.0.3729.131,,,2019-05-06 15:18:37,2019-05-06 15:18:37,0.067s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/input_Edit_search""), 0))",Chrome 74.0.3729.131,,,2019-05-06 15:18:37,2019-05-06 15:18:38,1.334s,PASSED
+delay(20),Chrome 74.0.3729.131,,,2019-05-06 15:18:38,2019-05-06 15:18:58,20.005s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/label_Bug 255666""), 0))",Chrome 74.0.3729.131,,,2019-05-06 15:18:58,2019-05-06 15:18:58,0.137s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI New Bug/bugInfo_accordion""), 0)",Chrome 74.0.3729.131,,,2019-05-06 15:18:58,2019-05-06 15:18:58,0.044s,PASSED
+"isBugInfoAccordionExpanded = getAttribute(findTestObject(""Page_BugsUI New Bug/bugInfo_accordion""), ""aria-expanded"")",Chrome 74.0.3729.131,,,2019-05-06 15:18:58,2019-05-06 15:18:58,0.055s,PASSED
+"if (isBugInfoAccordionExpanded.equals(""false""))",Chrome 74.0.3729.131,,,2019-05-06 15:18:58,2019-05-06 15:19:02,3.604s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 15:19:02,2019-05-06 15:19:04,2.007s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/div_Bugdetails_updated_success""), 0))",Chrome 74.0.3729.131,,,2019-05-06 15:19:04,2019-05-06 15:19:04,0.238s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:19:04,2019-05-06 15:19:07,3.005s,PASSED
+"aliasName = getAttribute(findTestObject(""Page_BugsUI New Bug/input_BugAlias""), ""value"")",Chrome 74.0.3729.131,,,2019-05-06 15:19:07,2019-05-06 15:19:07,0.091s,PASSED
+"if (aliasName.equals(""123Test""))",Chrome 74.0.3729.131,,,2019-05-06 15:19:07,2019-05-06 15:19:07,0.001s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:19:07,2019-05-06 15:19:10,3.004s,PASSED
+"clearText(findTestObject(""Page_BugsUI New Bug/input_BugAlias""))",Chrome 74.0.3729.131,,,2019-05-06 15:19:10,2019-05-06 15:19:10,0.123s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/input_BugAlias""), ""test987"")",Chrome 74.0.3729.131,,,2019-05-06 15:19:10,2019-05-06 15:19:10,0.166s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:19:10,2019-05-06 15:19:13,3.005s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI New Bug/topButton_Commit"")))",Chrome 74.0.3729.131,,,2019-05-06 15:19:13,2019-05-06 15:19:14,0.173s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:19:14,2019-05-06 15:19:17,3.004s,PASSED
+,,,,,,,
+Test Cases/BugPage/verify_addingComments,Chrome 74.0.3729.131,,,2019-05-06 15:19:17,2019-05-06 15:19:25,8.530s,FAILED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 15:19:17,2019-05-06 15:19:19,2.004s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI New Bug/textarea_Add Comment""), 0)",Chrome 74.0.3729.131,,,2019-05-06 15:19:19,2019-05-06 15:19:19,0.107s,PASSED
+delay(2),Chrome 74.0.3729.131,,,2019-05-06 15:19:19,2019-05-06 15:19:21,2.006s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/textarea_Add Comment""), ""Testing comment for Automation"")",Chrome 74.0.3729.131,,,2019-05-06 15:19:21,2019-05-06 15:19:22,0.475s,PASSED
+delay(3),Chrome 74.0.3729.131,,,2019-05-06 15:19:22,2019-05-06 15:19:25,3.004s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI New Bug/bottom_button_Commit"")))",Chrome 74.0.3729.131,,,2019-05-06 15:19:25,2019-05-06 15:19:25,0.640s,PASSED
