@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SmokeSuite" time="270" tests="8" failures="0" errors="0">
+   <testsuite name="SmokeSuite" tests="8" failures="0" errors="0" time="270" timestamp="2019-05-06 10:11:02" hostname="Kumar.nagendra - HMECL001948.happiestminds.com" id="Test Suites/SmokeSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190506_101046"/>
+         <property name="logFiles" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\SmokeSuite\\20190506_101046\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Kumar.nagendra - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.95.75.221"/>
+         <property name="sessionId" value="3a8bf24511f5df019b9e44325343d545"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Bugzilla-LoginPage-Loads" classname="Test Cases/Login/Bugzilla-LoginPage-Loads" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:11:03 - [TEST_CASE][PASSED] - Test Cases/Login/Bugzilla-LoginPage-Loads: Test Cases/Login/Bugzilla-LoginPage-Loads
+
+2019-05-06 10:11:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 10:11:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 10:11:04 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-06 10:11:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 10:11:08 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:11:30 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:11:30 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-06 10:11:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-06 10:11:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-06 10:11:34 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 10:11:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:11:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/input_username"), 0): Object 'Object Repository/Page_BugsUI/input_username' is present
+
+2019-05-06 10:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/input_username' is present
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/input_password"), 0): Object 'Object Repository/Page_BugsUI/input_password' is present
+
+2019-05-06 10:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/input_password' is present
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI/checkbox_RememberMe"), 0): Object 'Object Repository/Page_BugsUI/checkbox_RememberMe' is present
+
+2019-05-06 10:11:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:11:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/checkbox_RememberMe' is present
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - if (getText(findTestObject("Page_BugsUI/label_rememberMe")).equals("Remember me")): null
+
+2019-05-06 10:11:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI/label_rememberMe' is: 'Remember me'
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:11:36 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI/button_Login"))): null
+
+2019-05-06 10:11:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is NOT clickable
+
+2019-05-06 10:11:37 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:11:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-06 10:11:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Valid_Login" classname="Test Cases/Login/Valid_Login" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:11:37 - [TEST_CASE][PASSED] - Test Cases/Login/Valid_Login: Test Cases/Login/Valid_Login
+
+2019-05-06 10:11:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 10:11:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 10:11:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 10:11:39 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:11:53 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:11:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-06 10:11:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-06 10:11:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-06 10:11:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 10:11:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_username"), "knagendra-ext"): Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:12:01 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:12:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_password"), "Kum1!@#$%^&*()ar"): Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:12:01 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:12:01 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-06 10:12:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI/button_Login")): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:12:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:12:04 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-06 10:12:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-06 10:12:04 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-06 10:12:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/AddProductFields_verification" classname="Test Cases/Add_Product/AddProductFields_verification" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:12:05 - [TEST_CASE][PASSED] - Test Cases/Add_Product/AddProductFields_verification: Test Cases/Add_Product/AddProductFields_verification
+
+2019-05-06 10:12:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 10:12:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 10:12:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 10:12:07 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:12:24 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:12:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:12:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:12:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-06 10:12:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 10:12:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_username"), "knagendra-ext"): Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:12:29 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:12:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_password"), "Kum1!@#$%^&*()ar"): Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:12:29 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:12:29 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-06 10:12:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI/button_Login")): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:12:29 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+2019-05-06 10:12:35 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-06 10:12:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-06 10:12:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-06 10:12:35 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): null
+
+2019-05-06 10:12:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-06 10:12:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/button_Product")): Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:12:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:37 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_Add"), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-06 10:12:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Add' is present
+
+2019-05-06 10:12:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_Add")): Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-06 10:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-06 10:12:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Add Product/span_Add Product"), 0)): null
+
+2019-05-06 10:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/span_Add Product' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Choose Classification"), 1): Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_name"), 1): Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/textarea_description"), 1): Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/checkbox_closedForBugEntry"), 1): Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_version"), 1): Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/input_component"), 1): Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Choose Assignee"), 1): Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Add Product/AddProduct_button"), 0): Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-06 10:12:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-06 10:12:42 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-06 10:12:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-06 10:12:42 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Add Product/div_Choose Classification"), 0): Scroll to object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' successfully
+
+2019-05-06 10:12:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' successfully
+
+2019-05-06 10:12:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-06 10:12:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-06 10:12:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/div_Choose Classification")): Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-06 10:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-06 10:12:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/span_Software")): Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-06 10:12:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-06 10:12:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_name"), "1-Automation-testing"): Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:46 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/textarea_description"), "1-Automation-testing Description"): Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-06 10:12:46 - [MESSAGE][PASSED] - Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-06 10:12:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_version"), "1"): Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-06 10:12:46 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-06 10:12:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Add Product/AddProduct_button"), 0): Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:12:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-06 10:12:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-06 10:12:47 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-06 10:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-06 10:12:47 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/defaultAssigne_inputbox"), "kumar nagendra"): Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-06 10:12:47 - [MESSAGE][PASSED] - Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-06 10:12:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/span_kumar.nagendra")): Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-06 10:12:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-06 10:12:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_component"), "Auto-1"): Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Text 'Auto-1' is set on object 'Object Repository/Page_BugsUI Add Product/input_component'
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/componentDescription"), 1): Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/componentDescription' is present
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/componentDescription"), "Auto-1 description"): Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Text 'Auto-1 description' is set on object 'Object Repository/Page_BugsUI Add Product/componentDescription'
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Add Product/AddProduct_button"), 1): Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-06 10:12:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:53 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Add Product/AddProduct_button"))): null
+
+2019-05-06 10:12:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-06 10:12:53 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:53 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Add Product/input_name")): Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-06 10:12:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-06 10:12:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_name"), "BugsUITest"): Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:53 - [MESSAGE][PASSED] - Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/AddProduct_button")): Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-06 10:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-06 10:12:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Product BugsUITest already"), 1): Object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is present
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is present
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - text = getText(findTestObject("Page_BugsUI Add Product/div_Product BugsUITest already")): Text of object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is: 'Product BugsUITest already exists.'
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/div_Product BugsUITest already' is: 'Product BugsUITest already exists.'
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - if (text.equals("Product BugsUITest already exists.")): null
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Add Product/input_name")): Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/input_name' is cleared
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Add Product/input_name"), "1-Automation-testing"): Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Add Product/AddProduct_button")): Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-06 10:12:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clicked on
+
+2019-05-06 10:12:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-06 10:12:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-06 10:12:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Add Product/div_Product_added_success"), 1): Object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present
+
+2019-05-06 10:12:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is present
+
+2019-05-06 10:12:57 - [TEST_STEP][PASSED] - successMsg = getText(findTestObject("Page_BugsUI Add Product/div_Product_added_success")): Text of object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is: 'Product has been added successfully.'
+
+2019-05-06 10:12:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Add Product/div_Product_added_success' is: 'Product has been added successfully.'
+
+2019-05-06 10:12:57 - [TEST_STEP][PASSED] - if (successMsg.equals("Product has been added successfully.")): null
+
+2019-05-06 10:12:57 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:12:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:12:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/AddedProductAvailability" classname="Test Cases/Add_Product/AddedProductAvailability" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:12:59 - [TEST_CASE][PASSED] - Test Cases/Add_Product/AddedProductAvailability: Test Cases/Add_Product/AddedProductAvailability
+
+2019-05-06 10:12:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:13:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:13:01 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_New Bug"), 0)): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:13:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is present
+
+2019-05-06 10:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_New Bug")): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:13:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:13:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI New Bug/span_Raise New Bug"), 0): Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-06 10:13:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-06 10:13:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Classification"), "Software"): Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-06 10:13:07 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-06 10:13:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:13:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_Software")): Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-06 10:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-06 10:13:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Package"), "1-Automation-testing"): Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-06 10:13:13 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-06 10:13:13 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI New Bug/span_1-Automation-testing"), 0)): null
+
+2019-05-06 10:13:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is present
+
+2019-05-06 10:13:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_1-Automation-testing")): Object: 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is clicked on
+
+2019-05-06 10:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_1-Automation-testing' is clicked on
+
+2019-05-06 10:13:13 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:13:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:16 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add_Product/Delete_added_product" classname="Test Cases/Add_Product/Delete_added_product" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:13:16 - [TEST_CASE][PASSED] - Test Cases/Add_Product/Delete_added_product: Test Cases/Add_Product/Delete_added_product
+
+2019-05-06 10:13:16 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): null
+
+2019-05-06 10:13:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-06 10:13:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/button_Product")): Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:13:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:13:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:13:18 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_Edit"), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:13:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Edit' is present
+
+2019-05-06 10:13:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_Edit")): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:13:18 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-06 10:13:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-06 10:13:22 - [TEST_STEP][PASSED] - if (verifyAlertPresent(7)): Alert accepted
+
+2019-05-06 10:13:22 - [MESSAGE][PASSED] - Alert is present after 7 second(s).
+
+2019-05-06 10:13:22 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-05-06 10:13:22 - [MESSAGE][PASSED] - Alert accepted
+
+2019-05-06 10:13:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-06 10:13:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-06 10:13:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Edit Product"), 0): Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-06 10:13:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-06 10:13:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/div_Choose Classification"), "Software"): Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-06 10:13:27 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-06 10:13:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:13:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:13:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/span_Software")): Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-06 10:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-06 10:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/div_Choose Product"), "1-Automation-testing"): Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-06 10:13:29 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-06 10:13:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:13:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:13:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/span_1-Automation-testing")): Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Automation-testing' is clicked on
+
+2019-05-06 10:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Automation-testing' is clicked on
+
+2019-05-06 10:13:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 1): Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-06 10:13:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-06 10:13:31 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 0)): null
+
+2019-05-06 10:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-06 10:13:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-06 10:13:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-06 10:13:36 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Edit Product/button_Delete Product"))): Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-06 10:13:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clickable
+
+2019-05-06 10:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_Delete Product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-06 10:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-06 10:13:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:40 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/confirmDeleteProduct_popup"), 0)): null
+
+2019-05-06 10:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-06 10:13:40 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_No"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-06 10:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_No' is present
+
+2019-05-06 10:13:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_No")): Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-06 10:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_No' is clicked on
+
+2019-05-06 10:13:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-06 10:13:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is present
+
+2019-05-06 10:13:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_Delete Product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-06 10:13:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' is clicked on
+
+2019-05-06 10:13:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/confirmDeleteProduct_popup"), 0)): null
+
+2019-05-06 10:13:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/confirmDeleteProduct_popup' is present
+
+2019-05-06 10:13:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_deleteProduct_Yes"), 0)): Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-06 10:13:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is present
+
+2019-05-06 10:13:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_deleteProduct_Yes")): Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-06 10:13:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_deleteProduct_Yes' is clicked on
+
+2019-05-06 10:13:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:13:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:13:49 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Product has been deleted"), 0)): null
+
+2019-05-06 10:13:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:13:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is present
+
+2019-05-06 10:13:49 - [TEST_STEP][PASSED] - text = getText(findTestObject("Page_BugsUI Edit Product/div_Product has been deleted")): Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is: 'Product has been deleted successfully.'
+
+2019-05-06 10:13:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/div_Product has been deleted' is: 'Product has been deleted successfully.'
+
+2019-05-06 10:13:49 - [TEST_STEP][PASSED] - if (text.equals("Product has been deleted successfully.")): null
+
+2019-05-06 10:13:49 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:13:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-06 10:13:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/Edit_product_fields" classname="Test Cases/Edit_Product/Edit_product_fields" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:13:50 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/Edit_product_fields: Test Cases/Edit_Product/Edit_product_fields
+
+2019-05-06 10:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 10:13:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 10:13:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 10:13:52 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:14:05 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:14:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:14:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:14:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-06 10:14:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 10:14:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_username"), "knagendra-ext"): Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:14:10 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:14:10 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI/input_password"), "Kum1!@#$%^&*()ar"): Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:14:10 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:14:10 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:14:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-06 10:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI/button_Login")): Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:14:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:14:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-06 10:14:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-06 10:14:14 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-06 10:14:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-06 10:14:14 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/button_Product"), 10)): null
+
+2019-05-06 10:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-06 10:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/button_Product")): Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:14:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-06 10:14:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:17 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_Edit"), 5)): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:14:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Edit' is present
+
+2019-05-06 10:14:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_Edit")): Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Edit' is clicked on
+
+2019-05-06 10:14:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Edit Product"), 0): Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-06 10:14:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Edit Product' is present
+
+2019-05-06 10:14:18 - [TEST_STEP][PASSED] - reusable.editPage.selectProduct(): reusable.editPage.selectProduct is PASSED
+
+2019-05-06 10:14:19 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-06 10:14:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-06 10:14:21 - [MESSAGE][PASSED] - Text '1-Auto-edit' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-06 10:14:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Auto-edit' is clicked on
+
+2019-05-06 10:14:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:25 - [MESSAGE][PASSED] - reusable.editPage.selectProduct is PASSED
+
+2019-05-06 10:14:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/input_newName"), 0): Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-06 10:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/input_newName' is present
+
+2019-05-06 10:14:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/textarea_description"), 0): Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-06 10:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is present
+
+2019-05-06 10:14:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_closed_for_bug_entry"), 0): Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-06 10:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_closed_for_bug_entry' is present
+
+2019-05-06 10:14:25 - [TEST_STEP][PASSED] - if (verifyElementNotClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): null
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is NOT clickable
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 2): Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/button_Delete Product' successfully
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/div_Component Information"), 0): Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/div_Component Information' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Refresh components"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh components' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_Component"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_Component' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/span_Version Information"), 0): Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/span_Version Information' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Refresh versions"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_Refresh versions' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_AddNewRow_version"), 0): Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-06 10:14:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:14:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_AddNewRow_version' is present
+
+2019-05-06 10:14:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:28 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit_Product/closedForBugEntery_UpdateProduct" classname="Test Cases/Edit_Product/closedForBugEntery_UpdateProduct" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:14:28 - [TEST_CASE][PASSED] - Test Cases/Edit_Product/closedForBugEntery_UpdateProduct: Test Cases/Edit_Product/closedForBugEntery_UpdateProduct
+
+2019-05-06 10:14:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI Edit Product/input_newName"), 2): Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-06 10:14:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Edit Product/input_newName' successfully
+
+2019-05-06 10:14:28 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/textarea_description")): Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-06 10:14:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-06 10:14:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/textarea_description"), "Editing Description"): Text 'Editing Description' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-06 10:14:28 - [MESSAGE][PASSED] - Text 'Editing Description' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-06 10:14:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:30 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clickable
+
+2019-05-06 10:14:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_update_product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:33 - [TEST_STEP][PASSED] - reusable.editPage.selectProduct(): reusable.editPage.selectProduct is PASSED
+
+2019-05-06 10:14:33 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Classification'
+
+2019-05-06 10:14:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_Software' is clicked on
+
+2019-05-06 10:14:35 - [MESSAGE][PASSED] - Text '1-Auto-edit' is set on object 'Object Repository/Page_BugsUI Edit Product/div_Choose Product'
+
+2019-05-06 10:14:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/span_1-Auto-edit' is clicked on
+
+2019-05-06 10:14:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:40 - [MESSAGE][PASSED] - reusable.editPage.selectProduct is PASSED
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - productDesc = getAttribute(findTestObject("Page_BugsUI Edit Product/textarea_description"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Editing Description'
+
+2019-05-06 10:14:40 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is: 'Editing Description'
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - if (productDesc.equals("Editing Description")): null
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - clearText(findTestObject("Page_BugsUI Edit Product/textarea_description")): Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-06 10:14:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_BugsUI Edit Product/textarea_description' is cleared
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI Edit Product/textarea_description"), "Product for Automation"): Text 'Product for Automation' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-06 10:14:40 - [MESSAGE][PASSED] - Text 'Product for Automation' is set on object 'Object Repository/Page_BugsUI Edit Product/textarea_description'
+
+2019-05-06 10:14:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:42 - [TEST_STEP][PASSED] - if (verifyElementClickable(findTestObject("Page_BugsUI Edit Product/button_update_product"))): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clickable
+
+2019-05-06 10:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Edit Product/button_update_product")): Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Edit Product/button_update_product' is clicked on
+
+2019-05-06 10:14:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:14:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:14:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-06 10:14:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NewBugCreation/Creating_bug" classname="Test Cases/NewBugCreation/Creating_bug" status="PASSED">
+         <system-out><![CDATA[2019-05-06 10:14:45 - [TEST_CASE][PASSED] - Test Cases/NewBugCreation/Creating_bug: Test Cases/NewBugCreation/Creating_bug
+
+2019-05-06 10:14:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-06 10:14:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-06 10:14:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-06 10:14:47 - [TEST_STEP][PASSED] - navigateToUrl(applicationUrl): Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:15:02 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-06 10:15:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:15:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:15:05 - [TEST_STEP][PASSED] - reusable.loginBugZillaUI.login(): reusable.loginBugZillaUI.login is PASSED
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-06 10:15:06 - [MESSAGE][PASSED] - reusable.loginBugZillaUI.login is PASSED
+
+2019-05-06 10:15:06 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-06 10:15:10 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-06 10:15:10 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/span_Dashboard"), 0)): null
+
+2019-05-06 10:15:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-06 10:15:10 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI Dashboard/a_New Bug"), 3)): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:15:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is present
+
+2019-05-06 10:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI Dashboard/a_New Bug")): Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_New Bug' is clicked on
+
+2019-05-06 10:15:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:15:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:15:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BugsUI New Bug/span_Raise New Bug"), 0): Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-06 10:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:15:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/span_Raise New Bug' is present
+
+2019-05-06 10:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Classification"), "Software"): Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-06 10:15:16 - [MESSAGE][PASSED] - Text 'Software' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Classification'
+
+2019-05-06 10:15:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:15:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_Software")): Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-06 10:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_Software' is clicked on
+
+2019-05-06 10:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose Package"), "BugsUITest"): Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-06 10:15:18 - [MESSAGE][PASSED] - Text 'BugsUITest' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose Package'
+
+2019-05-06 10:15:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:15:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_BugsUITest")): Object: 'Object Repository/Page_BugsUI New Bug/span_BugsUITest' is clicked on
+
+2019-05-06 10:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_BugsUITest' is clicked on
+
+2019-05-06 10:15:20 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/div_Choose PackageVersion"), "main12"): Text 'main12' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose PackageVersion'
+
+2019-05-06 10:15:21 - [MESSAGE][PASSED] - Text 'main12' is set on object 'Object Repository/Page_BugsUI New Bug/div_Choose PackageVersion'
+
+2019-05-06 10:15:21 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:15:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/span_main12_pckgVrsion")): Object: 'Object Repository/Page_BugsUI New Bug/span_main12_pckgVrsion' is clicked on
+
+2019-05-06 10:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/span_main12_pckgVrsion' is clicked on
+
+2019-05-06 10:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/input_summary"), "Test automation bug"): Text 'Test automation bug' is set on object 'Object Repository/Page_BugsUI New Bug/input_summary'
+
+2019-05-06 10:15:24 - [MESSAGE][PASSED] - Text 'Test automation bug' is set on object 'Object Repository/Page_BugsUI New Bug/input_summary'
+
+2019-05-06 10:15:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:15:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:15:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BugsUI New Bug/textarea_description"), "This bug is created for automation purpose"): Text 'This bug is created for automation purpose' is set on object 'Object Repository/Page_BugsUI New Bug/textarea_description'
+
+2019-05-06 10:15:27 - [MESSAGE][PASSED] - Text 'This bug is created for automation purpose' is set on object 'Object Repository/Page_BugsUI New Bug/textarea_description'
+
+2019-05-06 10:15:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_BugsUI New Bug/button_Raise New Bug"), 1): Scroll to object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' successfully
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' successfully
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - verifyElementNotClickable(findTestObject("Page_BugsUI New Bug/input_reporter")): Object 'Object Repository/Page_BugsUI New Bug/input_reporter' is NOT clickable
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/input_reporter' is NOT clickable
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - defaultReporterName = getAttribute(findTestObject("Page_BugsUI New Bug/input_reporter"), "value"): Attribute 'value' of object 'Object Repository/Page_BugsUI New Bug/input_reporter' is: 'kumar Nagendra1 (kumar.nagendra@happiestminds.com)'
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_BugsUI New Bug/input_reporter' is: 'kumar Nagendra1 (kumar.nagendra@happiestminds.com)'
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - if (defaultReporterName.equals("kumar Nagendra1 (kumar.nagendra@happiestminds.com)")): null
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - assert true: null
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Page_BugsUI New Bug/button_Raise New Bug"), 0)): Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-06 10:15:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is present
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_BugsUI New Bug/button_Raise New Bug")): Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-06 10:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI New Bug/button_Raise New Bug' is clicked on
+
+2019-05-06 10:15:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-06 10:15:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-06 10:15:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-06 10:15:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-06 10:11:02 - [TEST_SUITE][PASSED] - SmokeSuite: Test Cases/NewBugCreation/Creating_bug]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
