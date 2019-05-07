@@ -13,3 +13,53 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl(GlobalVariable.applicationUrl)
+
+WebUI.delay(3)
+
+CustomKeywords.'reusable.loginBugZillaUI.login'()
+
+WebUI.delay(4)
+
+if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/span_Dashboard'), 0)){
+	
+	if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/a_Search'), 3)){
+		
+		WebUI.click(findTestObject('Page_BugsUI Dashboard/a_Search'))
+		
+	}
+}
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject("Page_Search/div_Package_search"), "BugsUITest")
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Page_Search/div_BugsUITest'))
+
+WebUI.delay(3)
+
+
+if(WebUI.verifyElementPresent(findTestObject('Page_Search/button_Search'), 0)){
+	
+	WebUI.click(findTestObject('Page_Search/button_Search'))
+	
+}
+
+WebUI.delay(3)
+
+if(WebUI.verifyElementPresent(findTestObject('Page_Search/span_SearchResultBugsFound'), 0)){
+	
+	if(WebUI.verifyElementPresent(findTestObject('Page_Search/searchResultTable'), 0)){
+		
+		assert true
+	}
+	else{
+		assert false
+	}
+}
+
+WebUI.closeBrowser()

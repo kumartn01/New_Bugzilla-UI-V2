@@ -70,4 +70,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/BugPage/verify_addingComments</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b3beba18-7c13-479e-9973-7cc993c838c6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SearchPage/verify_user_able_to_search_basicflow</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
