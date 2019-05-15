@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "verification of newly added product in package dropdown",
+        "description": "",
+        "id": "availability-of-newly-added-product-in-new-bug-page-package-dropdown;verification-of-newly-added-product-in-package-dropdown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5719014859,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user present in new bug page",
+            "match": {
+              "location": "AvailabilityOfAddedProduct.user_present_in_new_bug_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5890990314,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click on package dropdown",
+            "match": {
+              "location": "AvailabilityOfAddedProduct.click_on_package_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3181412998,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify presence of newly added product",
+            "match": {
+              "location": "AvailabilityOfAddedProduct.verify_presence_of_newly_added_product()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyAddedProduct"
+          },
+          {
+            "name": "@VerifyAddedProduct"
+          }
+        ]
+      }
+    ],
+    "name": "Availability of newly added product in new bug page package dropdown",
+    "description": "  I want verify whether newly created product is available to use ",
+    "id": "availability-of-newly-added-product-in-new-bug-page-package-dropdown",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AvailabilityOfAddedProduct.feature",
+    "tags": [
+      {
+        "name": "@VerifyAddedProduct",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

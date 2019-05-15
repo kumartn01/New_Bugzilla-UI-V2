@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Verify adding comments",
+        "description": "",
+        "id": "verify-adding-comments;verify-adding-comments",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4047474482,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User moves to comments section in Bug page",
+            "match": {
+              "location": "VerifyAddingComments.User_moves_to_comments_section_in_Bug_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5614265688,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User enters comments",
+            "match": {
+              "location": "VerifyAddingComments.User_enters_comments()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10152810319,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify Comments  is added successfully",
+            "match": {
+              "location": "VerifyAddingComments.Verify_Comments_is_added_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddingComments"
+          },
+          {
+            "name": "@AddingComments"
+          }
+        ]
+      }
+    ],
+    "name": "Verify adding comments",
+    "description": "  I want to Verify adding comments",
+    "id": "verify-adding-comments",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/VerifyAddingComments.feature",
+    "tags": [
+      {
+        "name": "@AddingComments",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

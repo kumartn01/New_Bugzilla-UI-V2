@@ -16,6 +16,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+
+import cucumber.api.java.en.Given
+import cucumber.api.java.en.Then
+import cucumber.api.java.en.When
+
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -31,7 +36,7 @@ WebUI.delay(3)
 WebUI.maximizeWindow()
 
 WebUI.delay(2)
-		
+
 WebUI.setText(findTestObject('Page_BugsUI/input_username'), 'knagendra-ext')
 
 WebUI.setText(findTestObject('Page_BugsUI/input_password'), 'Kum1!@#$%^&*()ar')
@@ -42,6 +47,8 @@ if(WebUI.verifyElementClickable(findTestObject("Page_BugsUI/button_Login"))){
 }
 
 WebUI.delay(6)
+
+
 
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/span_Dashboard'), 0)){
 	
@@ -59,6 +66,7 @@ if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Dashboard/span_Dashboa
 }
 
 WebUI.delay(3)
+
 
 if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI Add Product/span_Add Product'), 0)){
 	

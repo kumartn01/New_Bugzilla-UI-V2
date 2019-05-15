@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "update-product;title-of-your-scenario-outline",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38373349,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user in edit page",
+            "match": {
+              "location": "UpdateProduct.user_in_edit_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4474789118,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user modifies the product description and updates",
+            "match": {
+              "location": "UpdateProduct.user_modifies_the_product_description_and_updates()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12135314928,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "product should be update successfully",
+            "match": {
+              "location": "UpdateProduct.product_should_be_update_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateProduct"
+          },
+          {
+            "name": "@UpdateProduct"
+          }
+        ]
+      }
+    ],
+    "name": "Update Product",
+    "description": "  I want to update the product",
+    "id": "update-product",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/UpdateProduct.feature",
+    "tags": [
+      {
+        "name": "@UpdateProduct",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

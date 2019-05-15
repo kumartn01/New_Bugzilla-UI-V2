@@ -1,0 +1,91 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Product_Add_Suite,Firefox 66.0,,,2019-05-10 16:01:18,2019-05-10 16:03:00,1m - 42.657s,FAILED
+,,,,,,,
+Test Cases/Add_Product/AddProductFields_verification,Firefox 66.0,,,2019-05-10 16:01:18,2019-05-10 16:02:22,1m - 4.218s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-10 16:01:19,2019-05-10 16:01:26,7.215s,PASSED
+navigateToUrl(applicationUrl),Firefox 66.0,,,2019-05-10 16:01:26,2019-05-10 16:01:46,19.840s,PASSED
+delay(3),Firefox 66.0,,,2019-05-10 16:01:46,2019-05-10 16:01:49,3.043s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-05-10 16:01:49,2019-05-10 16:01:49,0.299s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:01:49,2019-05-10 16:01:51,2.003s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_username""), ""knagendra-ext"")",Firefox 66.0,,,2019-05-10 16:01:51,2019-05-10 16:01:51,0.185s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_password""), ""Kum1!@#$%^&*()ar"")",Firefox 66.0,,,2019-05-10 16:01:51,2019-05-10 16:01:51,0.122s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI/button_Login"")))",Firefox 66.0,,,2019-05-10 16:01:51,2019-05-10 16:01:52,0.431s,PASSED
+delay(6),Firefox 66.0,,,2019-05-10 16:01:52,2019-05-10 16:01:58,6.007s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Firefox 66.0,,,2019-05-10 16:01:58,2019-05-10 16:02:00,2.600s,PASSED
+delay(3),Firefox 66.0,,,2019-05-10 16:02:00,2019-05-10 16:02:03,3.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Add Product/span_Add Product""), 0))",Firefox 66.0,,,2019-05-10 16:02:03,2019-05-10 16:02:03,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""), 1)",Firefox 66.0,,,2019-05-10 16:02:03,2019-05-10 16:02:04,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_name""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/textarea_description""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/checkbox_closedForBugEntry""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.030s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_version""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/input_component""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.028s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Choose Assignee""), 1)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.082s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 0)",Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:04,0.036s,PASSED
+delay(1),Firefox 66.0,,,2019-05-10 16:02:04,2019-05-10 16:02:05,1.004s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Firefox 66.0,,,2019-05-10 16:02:05,2019-05-10 16:02:05,0.033s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""), 0)",Firefox 66.0,,,2019-05-10 16:02:05,2019-05-10 16:02:05,0.024s,PASSED
+delay(1),Firefox 66.0,,,2019-05-10 16:02:05,2019-05-10 16:02:06,1.002s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/div_Choose Classification""))",Firefox 66.0,,,2019-05-10 16:02:06,2019-05-10 16:02:06,0.305s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:06,2019-05-10 16:02:08,2.004s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/span_Software""))",Firefox 66.0,,,2019-05-10 16:02:08,2019-05-10 16:02:08,0.267s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""1-Automation-testing"")",Firefox 66.0,,,2019-05-10 16:02:08,2019-05-10 16:02:09,0.154s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/textarea_description""), ""1-Automation-testing Description"")",Firefox 66.0,,,2019-05-10 16:02:09,2019-05-10 16:02:09,0.129s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_version""), ""1"")",Firefox 66.0,,,2019-05-10 16:02:09,2019-05-10 16:02:09,0.076s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 0)",Firefox 66.0,,,2019-05-10 16:02:09,2019-05-10 16:02:09,0.030s,PASSED
+delay(1),Firefox 66.0,,,2019-05-10 16:02:09,2019-05-10 16:02:10,1.003s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Firefox 66.0,,,2019-05-10 16:02:10,2019-05-10 16:02:10,0.025s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/defaultAssigne_inputbox""), ""kumar nagendra"")",Firefox 66.0,,,2019-05-10 16:02:10,2019-05-10 16:02:10,0.155s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/span_kumar.nagendra""))",Firefox 66.0,,,2019-05-10 16:02:10,2019-05-10 16:02:12,1.762s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:12,2019-05-10 16:02:14,2.002s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.033s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_component""), ""Auto-1"")",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.057s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/componentDescription""), 1)",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.036s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.070s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/componentDescription""), ""Auto-1 description"")",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.139s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Add Product/AddProduct_button""), 1)",Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:14,0.036s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:14,2019-05-10 16:02:16,2.003s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI Add Product/AddProduct_button"")))",Firefox 66.0,,,2019-05-10 16:02:16,2019-05-10 16:02:16,0.029s,PASSED
+"clearText(findTestObject(""Page_BugsUI Add Product/input_name""))",Firefox 66.0,,,2019-05-10 16:02:16,2019-05-10 16:02:16,0.041s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""BugsUITest"")",Firefox 66.0,,,2019-05-10 16:02:16,2019-05-10 16:02:16,0.086s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/AddProduct_button""))",Firefox 66.0,,,2019-05-10 16:02:16,2019-05-10 16:02:17,0.263s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:17,2019-05-10 16:02:19,2.000s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Product BugsUITest already""), 1)",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.031s,PASSED
+"text = getText(findTestObject(""Page_BugsUI Add Product/div_Product BugsUITest already""))",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.040s,PASSED
+"if (text.equals(""Product BugsUITest already exists.""))",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.004s,PASSED
+"clearText(findTestObject(""Page_BugsUI Add Product/input_name""))",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.028s,PASSED
+"setText(findTestObject(""Page_BugsUI Add Product/input_name""), ""1-Automation-testing"")",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.147s,PASSED
+"click(findTestObject(""Page_BugsUI Add Product/AddProduct_button""))",Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:19,0.253s,PASSED
+delay(1),Firefox 66.0,,,2019-05-10 16:02:19,2019-05-10 16:02:20,1.002s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Add Product/div_Product_added_success""), 1)",Firefox 66.0,,,2019-05-10 16:02:20,2019-05-10 16:02:20,0.027s,PASSED
+"successMsg = getText(findTestObject(""Page_BugsUI Add Product/div_Product_added_success""))",Firefox 66.0,,,2019-05-10 16:02:20,2019-05-10 16:02:20,0.028s,PASSED
+"if (successMsg.equals(""Product has been added successfully.""))",Firefox 66.0,,,2019-05-10 16:02:20,2019-05-10 16:02:20,0.001s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:20,2019-05-10 16:02:22,2.003s,PASSED
+,,,,,,,
+Test Cases/Add_Product/AddedProductAvailability,Firefox 66.0,,,2019-05-10 16:02:22,2019-05-10 16:02:37,15.089s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:22,2019-05-10 16:02:24,2.003s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/a_New Bug""), 0))",Firefox 66.0,,,2019-05-10 16:02:24,2019-05-10 16:02:25,0.277s,PASSED
+delay(3),Firefox 66.0,,,2019-05-10 16:02:25,2019-05-10 16:02:28,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI New Bug/span_Raise New Bug""), 0)",Firefox 66.0,,,2019-05-10 16:02:28,2019-05-10 16:02:28,0.532s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Classification""), ""Software"")",Firefox 66.0,,,2019-05-10 16:02:28,2019-05-10 16:02:28,0.152s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:28,2019-05-10 16:02:30,2.002s,PASSED
+"click(findTestObject(""Page_BugsUI New Bug/span_Software""))",Firefox 66.0,,,2019-05-10 16:02:30,2019-05-10 16:02:31,0.275s,PASSED
+delay(3),Firefox 66.0,,,2019-05-10 16:02:31,2019-05-10 16:02:34,3.003s,PASSED
+"setText(findTestObject(""Page_BugsUI New Bug/div_Choose Package""), ""1-Automation-testing"")",Firefox 66.0,,,2019-05-10 16:02:34,2019-05-10 16:02:34,0.171s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI New Bug/span_1-Automation-testing""), 0))",Firefox 66.0,,,2019-05-10 16:02:34,2019-05-10 16:02:34,0.338s,PASSED
+delay(3),Firefox 66.0,,,2019-05-10 16:02:34,2019-05-10 16:02:37,3.004s,PASSED
+,,,,,,,
+Test Cases/Add_Product/Delete_added_product,Firefox 66.0,,,2019-05-10 16:02:37,2019-05-10 16:02:59,21.445s,FAILED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/button_Product""), 10))",Firefox 66.0,,,2019-05-10 16:02:38,2019-05-10 16:02:40,2.689s,PASSED
+delay(4),Firefox 66.0,,,2019-05-10 16:02:40,2019-05-10 16:02:44,4.004s,PASSED
+if (verifyAlertPresent(7)),Firefox 66.0,,,2019-05-10 16:02:44,2019-05-10 16:02:44,0.088s,PASSED
+delay(4),Firefox 66.0,,,2019-05-10 16:02:44,2019-05-10 16:02:48,4.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/span_Edit Product""), 0)",Firefox 66.0,,,2019-05-10 16:02:48,2019-05-10 16:02:48,0.028s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/div_Choose Classification""), ""Software"")",Firefox 66.0,,,2019-05-10 16:02:48,2019-05-10 16:02:49,0.157s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:49,2019-05-10 16:02:51,2.002s,PASSED
+"click(findTestObject(""Page_BugsUI Edit Product/span_Software""))",Firefox 66.0,,,2019-05-10 16:02:51,2019-05-10 16:02:51,0.270s,PASSED
+"setText(findTestObject(""Page_BugsUI Edit Product/div_Choose Product""), ""1-Automation-testing"")",Firefox 66.0,,,2019-05-10 16:02:51,2019-05-10 16:02:51,0.198s,PASSED
+delay(2),Firefox 66.0,,,2019-05-10 16:02:51,2019-05-10 16:02:53,2.002s,PASSED
+"click(findTestObject(""Page_BugsUI Edit Product/span_1-Automation-testing""))",Firefox 66.0,,,2019-05-10 16:02:53,2019-05-10 16:02:53,0.312s,PASSED
+"scrollToElement(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 1)",Firefox 66.0,,,2019-05-10 16:02:53,2019-05-10 16:02:53,0.041s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Edit Product/button_Delete Product""), 0))",Firefox 66.0,,,2019-05-10 16:02:53,2019-05-10 16:02:59,5.247s,PASSED

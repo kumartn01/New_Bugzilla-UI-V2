@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CucumberSmoke,,,,2019-05-13 17:38:42,2019-05-13 17:38:44,1.259s,ERROR
+,,,,,,,
+Test Cases/Cucumber_testCases/ProductAddCases,,,,2019-05-13 17:38:43,2019-05-13 17:38:43,0.669s,ERROR
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AddProduct.feature"", ""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AvailabilityOfAddedProduct.feature"")",,,,2019-05-13 17:38:43,2019-05-13 17:38:43,0.043s,PASSED

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="58.393853">
+<testcase classname="Verification of Edit product page fields" name="Verify Edit product page fields" time="58.393853">
+<system-out><![CDATA[Given Product edit page loads...............................................passed
+When verify product update button...........................................passed
+Then product update button should be disabled...............................passed
+And verify the fields of this edit page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

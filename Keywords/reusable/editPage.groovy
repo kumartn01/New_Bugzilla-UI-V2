@@ -23,65 +23,62 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class editPage {
-	
+
 	@Keyword
 	def selectProduct(){
-		
+
 		WebUI.setText(findTestObject("Page_BugsUI Edit Product/div_Choose Classification"), "Software")
-		
+
 		WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Page_BugsUI Edit Product/span_Software'))
-		
+
 		WebUI.setText(findTestObject("Page_BugsUI Edit Product/div_Choose Product"), "1-Auto-edit")
-		
+
 		WebUI.delay(2)
-		
+
 		WebUI.click(findTestObject('Page_BugsUI Edit Product/span_1-Auto-edit'))
-		
+
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
 	def resetUnkownComponent(){
-		
+
 		WebUI.clearText(findTestObject("Page_BugsUI Edit Product/unkown_description"))
-		
+
 		WebUI.setText(findTestObject("Page_BugsUI Edit Product/unkown_description"), "unknown")
-		
+
 		WebUI.clearText(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee"))
-		
+
 		WebUI.setText(findTestObject("Page_BugsUI Edit Product/unkown_defaultAssignee"), "kumar.nagendra@happiestminds.com")
-		
+
 		WebUI.click(findTestObject("Page_BugsUI Edit Product/update_icon_unknownComponent"))
-		
+
 		WebUI.delay(2)
-		
 	}
-	
+
 	@Keyword
 	def deleteComponent(){
-		
+
 		if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/confirmDeleteProduct_popup"), 0)){
-			
+
 			if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_component_Yes"), 0)){
-				
+
 				WebUI.click(findTestObject('Page_BugsUI Edit Product/button_component_Yes'))
 			}
 		}
 	}
-	
+
 	@Keyword
 	def deleteVersion(){
-		
+
 		if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/confirmDeleteProduct_popup"), 0)){
-	
+
 			if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_version_Yes"), 0)){
-				
+
 				WebUI.click(findTestObject('Page_BugsUI Edit Product/button_version_Yes'))
 			}
 		}
 	}
-
 }

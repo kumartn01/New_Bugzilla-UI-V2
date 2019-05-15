@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Verify Commit for Bug page",
+        "description": "",
+        "id": "verify-commit-for-bug-page;verify-commit-for-bug-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45942256387,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User present in bug page",
+            "match": {
+              "location": "VerifyCommitForBugPage.User_present_in_bug_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5709223676,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Modify the bug page field and commit",
+            "match": {
+              "location": "VerifyCommitForBugPage.Modify_the_bug_page_field_and_commit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12454222135,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify changes are commited successfully",
+            "match": {
+              "location": "VerifyCommitForBugPage.verify_changes_are_commited_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@commitBugPage"
+          },
+          {
+            "name": "@commitBugPage"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Commit for Bug page",
+    "description": "  I want to Verify Commit for Bug page",
+    "id": "verify-commit-for-bug-page",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/verifyCommitForBugPage.feature",
+    "tags": [
+      {
+        "name": "@commitBugPage",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

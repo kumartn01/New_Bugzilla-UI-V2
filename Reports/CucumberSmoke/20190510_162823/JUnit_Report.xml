@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CucumberSmoke" time="53" tests="1" failures="0" errors="0">
+   <testsuite name="CucumberSmoke" tests="1" failures="0" errors="0" time="53" timestamp="2019-05-10 16:28:26" hostname="HMECL001948$ - HMECL001948.happiestminds.com" id="Test Suites/CucumberSmoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\CucumberSmoke\\20190510_162823"/>
+         <property name="logFiles" value="C:\\New-Bugzilla-Application\\Automation\\New_Bugzilla-UI-V2\\Reports\\CucumberSmoke\\20190510_162823\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HMECL001948$ - HMECL001948.happiestminds.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.3.3"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.95.75.221"/>
+         <property name="sessionId" value="c186bd43e96a3a35e08ee779a9b1e31e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cucumber_testCases/ProductAdd_run_cases" classname="Test Cases/Cucumber_testCases/ProductAdd_run_cases" status="PASSED">
+         <system-out><![CDATA[2019-05-10 16:28:27 - [TEST_CASE][PASSED] - Test Cases/Cucumber_testCases/ProductAdd_run_cases: Test Cases/Cucumber_testCases/ProductAdd_run_cases
+
+2019-05-10 16:28:27 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/Add.feature"): Feature file: 'Include/features/Add.feature' was passed
+
+2019-05-10 16:28:27 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/Add.feature' and extract report to folder: 'C:\New-Bugzilla-Application\Automation\New_Bugzilla-UI-V2\Reports\CucumberSmoke\20190510_162823/cucumber_report/1557485907681'...
+
+2019-05-10 16:28:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login and click on Product Add Tab to go to Add page: SCENARIO Login and click on Product Add Tab to go to Add page
+
+2019-05-10 16:28:29 - [TEST_STEP][PASSED] - navigate_to_application_url: navigate_to_application_url
+
+2019-05-10 16:28:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-10 16:28:29 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-10 16:28:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-10 16:28:52 - [MESSAGE][PASSED] - Navigate to 'https://le-bugsui.staging.corp.arista.io/dashboard' successfully
+
+2019-05-10 16:28:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-10 16:28:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - navigate_to_application_url
+
+2019-05-10 16:28:57 - [TEST_STEP][PASSED] - login_to_application_with_valid_credentials: login_to_application_with_valid_credentials
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - Text 'knagendra-ext' is set on object 'Object Repository/Page_BugsUI/input_username'
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - Text 'Kum1!@#$%^&*()ar' is set on object 'Object Repository/Page_BugsUI/input_password'
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI/button_Login' is clickable
+
+2019-05-10 16:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI/button_Login' is clicked on
+
+2019-05-10 16:29:03 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2019-05-10 16:29:03 - [MESSAGE][PASSED] - login_to_application_with_valid_credentials
+
+2019-05-10 16:29:03 - [TEST_STEP][PASSED] - click_on_ProductAdd_Button: click_on_ProductAdd_Button
+
+2019-05-10 16:29:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-10 16:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/span_Dashboard' is present
+
+2019-05-10 16:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/button_Product' is present
+
+2019-05-10 16:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/button_Product' is clicked on
+
+2019-05-10 16:29:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 16:29:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Dashboard/a_Add' is present
+
+2019-05-10 16:29:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Dashboard/a_Add' is clicked on
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-10 16:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/span_Add Product' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - click_on_ProductAdd_Button
+
+2019-05-10 16:29:09 - [TEST_STEP][PASSED] - verify the product add fields: verify the product add fields
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_name' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/textarea_description' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/checkbox_closedForBugEntry' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_version' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/input_component' is present
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/div_Choose Assignee' is present
+
+2019-05-10 16:29:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-10 16:29:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-10 16:29:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 16:29:10 - [MESSAGE][PASSED] - verify the product add fields
+
+2019-05-10 16:29:10 - [TEST_STEP][PASSED] - verify if ProductAdd button is disabled: verify if ProductAdd button is disabled
+
+2019-05-10 16:29:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-10 16:29:10 - [MESSAGE][PASSED] - verify if ProductAdd button is disabled
+
+2019-05-10 16:29:10 - [TEST_STEP][PASSED] - input all mandatory fields: input all mandatory fields
+
+2019-05-10 16:29:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-10 16:29:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' successfully
+
+2019-05-10 16:29:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 16:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/div_Choose Classification' is clicked on
+
+2019-05-10 16:29:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 16:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_Software' is clicked on
+
+2019-05-10 16:29:14 - [MESSAGE][PASSED] - Text '1-Automation-testing' is set on object 'Object Repository/Page_BugsUI Add Product/input_name'
+
+2019-05-10 16:29:14 - [MESSAGE][PASSED] - Text '1-Automation-testing Description' is set on object 'Object Repository/Page_BugsUI Add Product/textarea_description'
+
+2019-05-10 16:29:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_BugsUI Add Product/input_version'
+
+2019-05-10 16:29:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-10 16:29:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' successfully
+
+2019-05-10 16:29:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-10 16:29:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is NOT clickable
+
+2019-05-10 16:29:15 - [MESSAGE][PASSED] - Text 'kumar nagendra' is set on object 'Object Repository/Page_BugsUI Add Product/defaultAssigne_inputbox'
+
+2019-05-10 16:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BugsUI Add Product/span_kumar.nagendra' is clicked on
+
+2019-05-10 16:29:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-10 16:29:19 - [MESSAGE][PASSED] - input all mandatory fields
+
+2019-05-10 16:29:19 - [TEST_STEP][PASSED] - verify Product Add button is enabled: verify Product Add button is enabled
+
+2019-05-10 16:29:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BugsUI Add Product/AddProduct_button' is clickable
+
+2019-05-10 16:29:19 - [MESSAGE][PASSED] - verify Product Add button is enabled
+
+2019-05-10 16:29:19 - [MESSAGE][PASSED] - Feature file: 'Include/features/Add.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-10 16:28:26 - [TEST_SUITE][PASSED] - CucumberSmoke: Test Cases/Cucumber_testCases/ProductAdd_run_cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

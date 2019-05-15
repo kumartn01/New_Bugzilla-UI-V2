@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="27.030232">
+<testcase classname="BugzillaApplicationLoads" name="verify if Bugzilla Application Loads" time="27.030232">
+<system-out><![CDATA[Given User enters application url...........................................passed
+When verify Application loads and its fields................................passed
+Then verify the login button is disabled....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

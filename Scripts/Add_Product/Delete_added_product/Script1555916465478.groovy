@@ -56,7 +56,11 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BugsUI Edit Product/span_1-Automation-testing'))
 
+WebUI.delay(2)
+
 WebUI.scrollToElement(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 1)
+
+WebUI.delay(2)
 
 if(WebUI.verifyElementPresent(findTestObject("Page_BugsUI Edit Product/button_Delete Product"), 0)){
 	

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.623683">
+<testcase classname="Verify whether user is able to add a New Product" name="Login and click on Product Add Tab to go to Add page" time="46.623683">
+<system-out><![CDATA[Given navigate_to_application_url...........................................passed
+When login_to_application_with_valid_credentials............................passed
+Then click_on_ProductAdd_Button.............................................passed
+And verify the product add fields...........................................passed
+And verify if ProductAdd button is disabled.................................passed
+And input all mandatory fields..............................................passed
+Then verify Product Add button is enabled...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

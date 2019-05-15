@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Basic Search",
+        "description": "",
+        "id": "basic-search;basic-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64663257298,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user is present in Search page",
+            "match": {
+              "location": "BasicSearch.user_is_present_in_Search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13154059140,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User searches for bugs with specific package",
+            "match": {
+              "location": "BasicSearch.User_searches_for_bugs_with_specific_package()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 951080185,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User is shown correct search result",
+            "match": {
+              "location": "BasicSearch.User_is_shown_correct_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BasicSearch"
+          },
+          {
+            "name": "@BasicSearch"
+          }
+        ]
+      }
+    ],
+    "name": "Basic Search",
+    "description": "  I want to do basic search",
+    "id": "basic-search",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Search/BasicSearch.feature",
+    "tags": [
+      {
+        "name": "@BasicSearch",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

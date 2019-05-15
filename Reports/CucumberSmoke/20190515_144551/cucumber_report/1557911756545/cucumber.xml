@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.1314">
+<testcase classname="Capture Version of Application" name="Capture Version of Application" time="45.1314">
+<system-out><![CDATA[Given Url of the application................................................passed
+When Application loads......................................................passed
+Then Capture current version of application.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

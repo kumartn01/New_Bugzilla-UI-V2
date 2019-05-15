@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Delete newly added product",
+        "description": "",
+        "id": "delete-newly-added-product;delete-newly-added-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19356952351,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user present in product edit page",
+            "match": {
+              "location": "DeleteAddedProduct.user_present_in_product_edit_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17695728695,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "click delete product button",
+            "match": {
+              "location": "DeleteAddedProduct.click_delete_product_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 758987389,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "product is deleted",
+            "match": {
+              "location": "DeleteAddedProduct.product_is_deleted()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteProduct"
+          },
+          {
+            "name": "@DeleteProduct"
+          }
+        ]
+      }
+    ],
+    "name": "Delete newly added product",
+    "description": "  I want to delete the newly added product",
+    "id": "delete-newly-added-product",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/DeleteAddedProduct.feature",
+    "tags": [
+      {
+        "name": "@DeleteProduct",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

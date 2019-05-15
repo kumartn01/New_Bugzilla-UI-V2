@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.776366">
+<testcase classname="Basic Search" name="Basic Search" time="78.776366">
+<system-out><![CDATA[Given user is present in Search page........................................passed
+When User searches for bugs with specific package...........................passed
+Then User is shown correct search result....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

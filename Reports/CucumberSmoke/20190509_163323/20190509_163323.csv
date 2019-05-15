@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CucumberSmoke,Chrome 74.0.3729.131,,,2019-05-09 16:33:26,2019-05-09 16:34:16,49.515s,PASSED
+,,,,,,,
+Test Cases/Cucumber_testCases/ProductAdd_run_cases,Chrome 74.0.3729.131,,,2019-05-09 16:33:27,2019-05-09 16:34:15,48.295s,PASSED
+"runFeatureFile(""Include/features/Add.feature"")",Chrome 74.0.3729.131,,,2019-05-09 16:33:27,2019-05-09 16:34:15,47.839s,PASSED

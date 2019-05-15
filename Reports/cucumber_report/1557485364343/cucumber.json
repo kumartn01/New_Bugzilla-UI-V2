@@ -1,0 +1,124 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Login and click on Product Add Tab to go to Add page",
+        "description": "",
+        "id": "verify-whether-user-is-able-to-add-a-new-product;login-and-click-on-product-add-tab-to-go-to-add-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23714313553,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "navigate_to_application_url",
+            "match": {
+              "location": "sample_add.navigate_to_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6484001443,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "login_to_application_with_valid_credentials",
+            "match": {
+              "location": "sample_add.login_to_application_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5409547729,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click_on_ProductAdd_Button",
+            "match": {
+              "location": "sample_add.click_on_ProductAdd_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1219243808,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify the product add fields",
+            "match": {
+              "location": "sample_add.verify_the_product_add_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74594841,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "verify if ProductAdd button is disabled",
+            "match": {
+              "location": "sample_add.verify_the_productAddButton_disabled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8519173530,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "input all mandatory fields",
+            "match": {
+              "location": "sample_add.input_all_mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28348706,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "verify Product Add button is enabled",
+            "match": {
+              "location": "sample_add.verify_ProductAdd_button_is_enabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Add"
+          },
+          {
+            "name": "@Add"
+          }
+        ]
+      }
+    ],
+    "name": "Verify whether user is able to add a New Product",
+    "description": "  I want Verify whether user is able to add a New Product",
+    "id": "verify-whether-user-is-able-to-add-a-new-product",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/Add.feature",
+    "tags": [
+      {
+        "name": "@Add",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

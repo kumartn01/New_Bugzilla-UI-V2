@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cucumber_Login_Suite,Chrome 74.0.3729.131,,,2019-05-15 12:35:24,2019-05-15 12:36:56,1m - 31.619s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/CaptureVersionOfApplication,Chrome 74.0.3729.131,,,2019-05-15 12:35:25,2019-05-15 12:36:00,34.862s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/CaptureVersionOfApplication.feature"")",Chrome 74.0.3729.131,,,2019-05-15 12:35:26,2019-05-15 12:36:00,34.336s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/BugzillaApplicationLoads,Chrome 74.0.3729.131,,,2019-05-15 12:36:00,2019-05-15 12:36:22,22.328s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/BugzillaApplicationLoads.feature"")",Chrome 74.0.3729.131,,,2019-05-15 12:36:00,2019-05-15 12:36:22,22.080s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/ValidLogin,Chrome 74.0.3729.131,,,2019-05-15 12:36:22,2019-05-15 12:36:56,33.827s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/ValidLogin.feature"")",Chrome 74.0.3729.131,,,2019-05-15 12:36:22,2019-05-15 12:36:56,33.637s,PASSED

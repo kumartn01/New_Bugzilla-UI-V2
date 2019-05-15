@@ -94,7 +94,7 @@ else if(isBugInfoAccordionExpanded.equals("true")){
 
 WebUI.delay(2)
 
-if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI New Bug/div_Bugdetails_updated_success'), 0)){
+if(WebUI.verifyElementPresent(findTestObject('Page_BugsUI New Bug/div_Bugdetails_updated_success'), 2)){
 	
 	bugNo = WebUI.getText(findTestObject('Page_BugsUI New Bug/div_Bugdetails_updated_success'))
 	

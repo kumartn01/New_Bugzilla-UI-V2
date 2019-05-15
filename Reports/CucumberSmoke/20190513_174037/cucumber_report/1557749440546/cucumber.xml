@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="125.161659">
+<testcase classname="Verify whether user is able to add a New Product" name="Login and click on Product Add Tab to go to Add page" time="92.126269">
+<system-out><![CDATA[Given navigate_to_application_url...........................................passed
+When login_to_application_with_valid_credentials............................passed
+Then click_on_ProductAdd_Button.............................................passed
+And verify the product add fields...........................................passed
+And verify if ProductAdd button is disabled.................................passed
+And input all mandatory fields..............................................passed
+Then verify Product Add button is enabled...................................passed
+And verify duplicate product cannot be created..............................passed
+Then create a new valid product.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Availability of newly added product in new bug page package dropdown" name="verification of newly added product in package dropdown" time="33.03539">
+<system-out><![CDATA[Given user present in new bug page..........................................passed
+When click on package dropdown..............................................passed
+Then verify presence of newly added product.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

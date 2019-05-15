@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.179859">
+<testcase classname="Delete newly added product" name="Delete newly added product" time="38.179859">
+<system-out><![CDATA[Given user present in product edit page.....................................passed
+When click delete product button............................................passed
+Then product is deleted.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

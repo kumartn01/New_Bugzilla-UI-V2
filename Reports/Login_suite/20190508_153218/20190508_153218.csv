@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_suite,Firefox 66.0,,,2019-05-08 15:32:20,2019-05-08 15:34:10,1m - 49.695s,PASSED
+,,,,,,,
+Test Cases/Login/Bugzilla-LoginPage-Loads,Firefox 66.0,,,2019-05-08 15:32:21,2019-05-08 15:33:13,52.725s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-08 15:32:21,2019-05-08 15:32:28,6.559s,PASSED
+navigateToUrl(applicationUrl),Firefox 66.0,,,2019-05-08 15:32:28,2019-05-08 15:33:05,37.513s,PASSED
+delay(4),Firefox 66.0,,,2019-05-08 15:33:05,2019-05-08 15:33:09,4.033s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-05-08 15:33:09,2019-05-08 15:33:10,0.350s,PASSED
+delay(2),Firefox 66.0,,,2019-05-08 15:33:10,2019-05-08 15:33:12,2.003s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/input_username""), 0)",Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:12,0.120s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/input_password""), 0)",Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:12,0.043s,PASSED
+"verifyElementPresent(findTestObject(""Page_BugsUI/checkbox_RememberMe""), 0)",Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:12,0.024s,PASSED
+"if (getText(findTestObject(""Page_BugsUI/label_rememberMe"")).equals(""Remember me""))",Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:12,0.072s,PASSED
+"if (verifyElementNotClickable(findTestObject(""Page_BugsUI/button_Login"")))",Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:12,0.105s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-05-08 15:33:12,2019-05-08 15:33:13,1.313s,PASSED
+,,,,,,,
+Test Cases/Login/Valid_Login,Firefox 66.0,,,2019-05-08 15:33:13,2019-05-08 15:34:10,56.500s,PASSED
+"openBrowser("""")",Firefox 66.0,,,2019-05-08 15:33:14,2019-05-08 15:33:18,4.036s,PASSED
+navigateToUrl(applicationUrl),Firefox 66.0,,,2019-05-08 15:33:18,2019-05-08 15:33:56,38.637s,PASSED
+delay(5),Firefox 66.0,,,2019-05-08 15:33:56,2019-05-08 15:34:01,5.004s,PASSED
+maximizeWindow(),Firefox 66.0,,,2019-05-08 15:34:01,2019-05-08 15:34:02,0.303s,PASSED
+delay(2),Firefox 66.0,,,2019-05-08 15:34:02,2019-05-08 15:34:04,2.002s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_username""), ""knagendra-ext"")",Firefox 66.0,,,2019-05-08 15:34:04,2019-05-08 15:34:04,0.141s,PASSED
+"setText(findTestObject(""Page_BugsUI/input_password""), ""Kum1!@#$%^&*()ar"")",Firefox 66.0,,,2019-05-08 15:34:04,2019-05-08 15:34:04,0.102s,PASSED
+"if (verifyElementClickable(findTestObject(""Page_BugsUI/button_Login"")))",Firefox 66.0,,,2019-05-08 15:34:04,2019-05-08 15:34:04,0.364s,PASSED
+delay(3),Firefox 66.0,,,2019-05-08 15:34:04,2019-05-08 15:34:07,3.005s,PASSED
+"if (verifyElementPresent(findTestObject(""Page_BugsUI Dashboard/span_Dashboard""), 0))",Firefox 66.0,,,2019-05-08 15:34:07,2019-05-08 15:34:07,0.073s,PASSED
+closeBrowser(),Firefox 66.0,,,2019-05-08 15:34:07,2019-05-08 15:34:10,2.545s,PASSED

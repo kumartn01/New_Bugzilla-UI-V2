@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.852097">
+<testcase classname="New Bug Creation" name="New Bug Creation with basic flow" time="45.852097">
+<system-out><![CDATA[Given user present in New bug page..........................................passed
+When user fills in all mandatory fields.....................................passed
+Then create new bug successfully............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

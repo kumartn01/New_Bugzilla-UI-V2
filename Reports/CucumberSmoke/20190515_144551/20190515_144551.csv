@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CucumberSmoke,Chrome 74.0.3729.131,,,2019-05-15 14:45:55,2019-05-15 14:54:46,8m - 50.516s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/CaptureVersionOfApplication,Chrome 74.0.3729.131,,,2019-05-15 14:45:56,2019-05-15 14:46:42,46.714s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/CaptureVersionOfApplication.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:45:56,2019-05-15 14:46:42,46.237s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/BugzillaApplicationLoads,Chrome 74.0.3729.131,,,2019-05-15 14:46:42,2019-05-15 14:47:12,30.028s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/BugzillaApplicationLoads.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:46:42,2019-05-15 14:47:12,29.794s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/ValidLogin,Chrome 74.0.3729.131,,,2019-05-15 14:47:12,2019-05-15 14:47:52,39.320s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/ValidLogin.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:47:13,2019-05-15 14:47:52,39.066s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/NewProductAdd,Chrome 74.0.3729.131,,,2019-05-15 14:47:52,2019-05-15 14:48:57,1m - 5.699s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AddProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:47:52,2019-05-15 14:48:57,1m - 5.486s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/AvailabilityOfAddedProduct,Chrome 74.0.3729.131,,,2019-05-15 14:48:57,2019-05-15 14:49:24,26.212s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AvailabilityOfAddedProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:48:58,2019-05-15 14:49:24,25.948s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/DeleteAddedProduct,Chrome 74.0.3729.131,,,2019-05-15 14:49:24,2019-05-15 14:50:02,38.591s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/DeleteAddedProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:49:24,2019-05-15 14:50:02,38.428s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/EditProductFields,Chrome 74.0.3729.131,,,2019-05-15 14:50:02,2019-05-15 14:50:52,49.958s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/EditProductFields.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:50:03,2019-05-15 14:50:52,49.539s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/UpdateProduct,Chrome 74.0.3729.131,,,2019-05-15 14:50:52,2019-05-15 14:51:09,17.224s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/UpdateProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:50:52,2019-05-15 14:51:09,17.019s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/NewBugCreation,Chrome 74.0.3729.131,,,2019-05-15 14:51:09,2019-05-15 14:52:03,53.491s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/New Bug/NewBugCreation.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:51:10,2019-05-15 14:52:03,53.288s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyCommitForBugPage,Chrome 74.0.3729.131,,,2019-05-15 14:52:03,2019-05-15 14:53:06,1m - 3.083s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/verifyCommitForBugPage.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:52:03,2019-05-15 14:53:06,1m - 2.881s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyAddingComments,Chrome 74.0.3729.131,,,2019-05-15 14:53:06,2019-05-15 14:53:26,20.460s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/VerifyAddingComments.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:53:06,2019-05-15 14:53:26,20.103s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/BasicSearch,Chrome 74.0.3729.131,BasicSearch,,2019-05-15 14:53:26,2019-05-15 14:54:46,1m - 19.273s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Search/BasicSearch.feature"")",Chrome 74.0.3729.131,,,2019-05-15 14:53:27,2019-05-15 14:54:46,1m - 19.047s,PASSED

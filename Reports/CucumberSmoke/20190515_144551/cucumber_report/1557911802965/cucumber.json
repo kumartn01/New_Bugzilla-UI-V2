@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "verify if Bugzilla Application Loads",
+        "description": "",
+        "id": "bugzillaapplicationloads;verify-if-bugzilla-application-loads",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28489533739,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enters application url",
+            "match": {
+              "location": "BugzillaApplicationLoads.User_enters_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157949603,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify Application loads and its fields",
+            "match": {
+              "location": "BugzillaApplicationLoads.verify_Application_loads_and_its_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 849317272,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "verify the login button is disabled",
+            "match": {
+              "location": "BugzillaApplicationLoads.verify_the_login_button_is_disabled()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "BugzillaApplicationLoads",
+    "description": "  I want to verify if Bugzilla Application Loads",
+    "id": "bugzillaapplicationloads",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Login/BugzillaApplicationLoads.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

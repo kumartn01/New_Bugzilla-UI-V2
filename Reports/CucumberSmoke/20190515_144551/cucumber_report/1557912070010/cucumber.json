@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "New Bug Creation with basic flow",
+        "description": "",
+        "id": "new-bug-creation;new-bug-creation-with-basic-flow",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35514410878,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user present in New bug page",
+            "match": {
+              "location": "NewBugCreation.user_present_in_Newbugpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14356358710,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user fills in all mandatory fields",
+            "match": {
+              "location": "NewBugCreation.user_fills_in_all_mandatory_fields()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3144983444,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "create new bug successfully",
+            "match": {
+              "location": "NewBugCreation.create_new_bug_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@NewBugCreation"
+          },
+          {
+            "name": "@NewBugCreation"
+          }
+        ]
+      }
+    ],
+    "name": "New Bug Creation",
+    "description": "  I want to create a new bug",
+    "id": "new-bug-creation",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/New Bug/NewBugCreation.feature",
+    "tags": [
+      {
+        "name": "@NewBugCreation",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

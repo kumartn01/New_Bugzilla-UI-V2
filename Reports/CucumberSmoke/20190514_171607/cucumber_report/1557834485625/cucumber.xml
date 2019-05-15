@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.802236">
+<testcase classname="Availability of newly added product in new bug page package dropdown" name="verification of newly added product in package dropdown" time="14.802236">
+<system-out><![CDATA[Given user present in new bug page..........................................passed
+When click on package dropdown..............................................passed
+Then verify presence of newly added product.................................passed
+]]></system-out>
+</testcase>
+</testsuite>

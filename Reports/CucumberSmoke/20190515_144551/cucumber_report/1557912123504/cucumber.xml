@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="62.647518">
+<testcase classname="Verify Commit for Bug page" name="Verify Commit for Bug page" time="62.647518">
+<system-out><![CDATA[Given User present in bug page..............................................passed
+When Modify the bug page field and commit...................................passed
+Then verify changes are commited successfully...............................passed
+]]></system-out>
+</testcase>
+</testsuite>

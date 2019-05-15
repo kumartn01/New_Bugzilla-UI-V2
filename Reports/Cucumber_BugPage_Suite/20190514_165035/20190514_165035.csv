@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cucumber_BugPage_Suite,Chrome 74.0.3729.131,,,2019-05-14 16:50:38,2019-05-14 16:52:13,1m - 34.933s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyCommitForBugPage,Chrome 74.0.3729.131,,,2019-05-14 16:50:38,2019-05-14 16:51:52,1m - 14.204s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/verifyCommitForBugPage.feature"")",Chrome 74.0.3729.131,,,2019-05-14 16:50:39,2019-05-14 16:51:52,1m - 13.734s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyAddingComments,Chrome 74.0.3729.131,,,2019-05-14 16:51:52,2019-05-14 16:52:13,20.350s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/VerifyAddingComments.feature"")",Chrome 74.0.3729.131,,,2019-05-14 16:51:53,2019-05-14 16:52:13,20.162s,PASSED

@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Verify Edit product page fields",
+        "description": "",
+        "id": "verification-of-edit-product-page-fields;verify-edit-product-page-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39059793666,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Product edit page loads",
+            "match": {
+              "location": "EditProductFields.Product_edit_page_loads()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103725991,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "verify product update button",
+            "match": {
+              "location": "EditProductFields.verify_product_update_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 28591192,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "product update button should be disabled",
+            "match": {
+              "location": "EditProductFields.product_update_button_should_be_disabled()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2163979965,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "verify the fields of this edit page",
+            "match": {
+              "location": "EditProductFields.verify_the_fields_of_this_edit_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ProductEdit"
+          },
+          {
+            "name": "@ProductEdit"
+          }
+        ]
+      }
+    ],
+    "name": "Verification of Edit product page fields",
+    "description": "  I want to Verify Edit product page fields",
+    "id": "verification-of-edit-product-page-fields",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/EditProductFields.feature",
+    "tags": [
+      {
+        "name": "@ProductEdit",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

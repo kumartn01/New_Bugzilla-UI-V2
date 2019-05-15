@@ -1,0 +1,76 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Capture Version of Application",
+        "description": "",
+        "id": "capture-version-of-application;capture-version-of-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43780795397,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Url of the application",
+            "match": {
+              "location": "CaptureVersionOfApplication.Url_of_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106488659,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Application loads",
+            "match": {
+              "location": "CaptureVersionOfApplication.Application_loads()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1219187372,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Capture current version of application",
+            "match": {
+              "location": "CaptureVersionOfApplication.Capture_current_version_of_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Capture Version of Application",
+    "description": "  I want to Capture Version of Application",
+    "id": "capture-version-of-application",
+    "keyword": "Feature",
+    "uri": "C:/New-Bugzilla-Application/Automation/New_Bugzilla-UI-V2/Include/features/BDD Cucumber Tests/Web UI Tests/Login/CaptureVersionOfApplication.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

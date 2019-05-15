@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.495281">
+<testcase classname="Update Product" name="Title of your scenario outline" time="16.495281">
+<system-out><![CDATA[Given user in edit page.....................................................passed
+When user modifies the product description and updates......................passed
+Then product should be update successfully..................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cucumber_EditProduct_Suite,Chrome 74.0.3729.131,,,2019-05-14 15:06:25,2019-05-14 15:07:43,1m - 17.333s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/EditProductFields,Chrome 74.0.3729.131,,,2019-05-14 15:06:26,2019-05-14 15:07:26,59.876s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/EditProductFields.feature"")",Chrome 74.0.3729.131,,,2019-05-14 15:06:26,2019-05-14 15:07:25,59.416s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/UpdateProduct,Chrome 74.0.3729.131,,,2019-05-14 15:07:26,2019-05-14 15:07:43,17.091s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/UpdateProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-14 15:07:26,2019-05-14 15:07:43,16.863s,PASSED

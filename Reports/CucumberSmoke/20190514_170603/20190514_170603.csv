@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CucumberSmoke,Chrome 74.0.3729.131,,,2019-05-14 17:06:05,2019-05-14 17:12:33,6m - 27.148s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/BugzillaApplicationLoads,Chrome 74.0.3729.131,,,2019-05-14 17:06:06,2019-05-14 17:06:35,28.712s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/BugzillaApplicationLoads.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:06:06,2019-05-14 17:06:35,28.244s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/ValidLogin,Chrome 74.0.3729.131,,,2019-05-14 17:06:35,2019-05-14 17:07:00,24.927s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Login/ValidLogin.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:06:35,2019-05-14 17:07:00,24.719s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/NewProductAdd,Chrome 74.0.3729.131,,,2019-05-14 17:07:00,2019-05-14 17:07:50,50.840s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AddProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:07:00,2019-05-14 17:07:50,50.619s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/AvailabilityOfAddedProduct,Chrome 74.0.3729.131,,,2019-05-14 17:07:50,2019-05-14 17:08:07,16.386s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/AvailabilityOfAddedProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:07:51,2019-05-14 17:08:07,16.094s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/DeleteAddedProduct,Chrome 74.0.3729.131,,,2019-05-14 17:08:07,2019-05-14 17:08:45,38.534s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Add/DeleteAddedProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:08:07,2019-05-14 17:08:45,38.274s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/EditProductFields,Chrome 74.0.3729.131,,,2019-05-14 17:08:45,2019-05-14 17:09:25,39.994s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/EditProductFields.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:08:46,2019-05-14 17:09:25,39.725s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/UpdateProduct,Chrome 74.0.3729.131,,,2019-05-14 17:09:25,2019-05-14 17:09:43,17.339s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Product Edit/UpdateProduct.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:09:25,2019-05-14 17:09:43,17.138s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/NewBugCreation,Chrome 74.0.3729.131,,,2019-05-14 17:09:43,2019-05-14 17:10:30,46.992s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/New Bug/NewBugCreation.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:09:43,2019-05-14 17:10:30,46.817s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyCommitForBugPage,Chrome 74.0.3729.131,,,2019-05-14 17:10:30,2019-05-14 17:11:34,1m - 4.521s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/verifyCommitForBugPage.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:10:30,2019-05-14 17:11:34,1m - 4.281s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/VerifyAddingComments,Chrome 74.0.3729.131,,,2019-05-14 17:11:34,2019-05-14 17:11:54,20.099s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Bug Details/VerifyAddingComments.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:11:34,2019-05-14 17:11:54,19.882s,PASSED
+,,,,,,,
+Test Cases/BDD Cucumber TestCases/BasicSearch,Chrome 74.0.3729.131,BasicSearch,,2019-05-14 17:11:54,2019-05-14 17:12:33,38.350s,PASSED
+"runFeatureFile(""Include/features/BDD Cucumber Tests/Web UI Tests/Search/BasicSearch.feature"")",Chrome 74.0.3729.131,,,2019-05-14 17:11:55,2019-05-14 17:12:33,38.085s,PASSED
